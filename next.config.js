@@ -5,6 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/sd.github.io',
+  assetPrefix: '/sd.github.io',
 }
 
 module.exports = nextConfig
