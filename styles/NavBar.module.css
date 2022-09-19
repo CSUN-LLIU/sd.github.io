@@ -1,0 +1,70 @@
+.outerContainer {
+    width: 100%;
+    padding: 1rem 1rem;
+}
+
+.container {
+    border-style: solid;
+    border-color: black;
+    border-radius: 12px;
+    background-color: darkgrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: inherit;
+    padding: 1rem  2rem;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.anchor:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.arrow {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+
+
+.popUp {
+    display: none;
+    position: absolute;
+    background-color: gainsboro;
+    min-width: 120px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+
+.arrow:hover {
+    cursor: pointer;
+    border-top: 5px solid white;
+}
+
+.arrow:hover .popUp {
+    display: block;
+}
+
+.popUpAnchor {
+    padding: 10px;
+}
+
+.popUpAnchor:hover {
+    color: white;
+    background-color: darkgrey;
+}
