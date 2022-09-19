@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ProjectArtifacts = () => {
-  return <div>ProjectArtifacts</div>
+  return <div>Juan Espinoza</div>
 }
 
 export default ProjectArtifacts
