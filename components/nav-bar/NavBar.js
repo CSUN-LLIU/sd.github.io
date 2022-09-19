@@ -39,13 +39,3 @@ const NavBar = ({ children }) => {
 }
 
 export default NavBar
-
-{
-  /* <div className={styles.arrow}>
-<div className={styles.popUp}>
-  <Link href='/'>
-    <div className={styles.popUpAnchor}>hidfs</div>
-  </Link>
-</div>
-</div> */
-}
