@@ -37,3 +37,11 @@ for example if your group name is group1 and the picture is image1.png this is h
 
 check the main index.js in the pages folder as a reference to check how to use the css
 
+use className instead of class.
+to import 
+
+import styles from '../../styles/folderName/fileName'
+
+to use
+
+[`<div  className={styles.class} >example</div>`]
