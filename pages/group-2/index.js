@@ -1,7 +1,7 @@
 import React from 'react'
 
 const HomePage = () => {
-  return <div>hit here</div>
+    return <div > hit heree < /div>
 }
 
 export default HomePage
