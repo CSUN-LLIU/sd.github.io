@@ -12,8 +12,7 @@ const TeamMembers = () => {
                         <div class="card-body text-center">
                             <Image src="/sd.github.io/SenSci/Lemond.jpg" width="150px" height="200px" class="mb-3" alt=""/>
                             <h3 class="card-title mb-3">Lemond Wyatt</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur 
-                                adipisicing elit. Accusantium praesentium pariatur maxime veritatis doloremque! Doloribus?
+                            <p class="card-text">Senior in Computer Science. Fullstack developer using React, Node.js, Express, and more. Also have done game development with Unity Engine.
                             </p>
                         </div>
                     </div>
