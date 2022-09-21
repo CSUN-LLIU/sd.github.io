@@ -10,7 +10,7 @@ const TeamMembers = () => {
     
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projecttimages/charles.png"
+            src="/sd.github.io/charles.png"
             alt="charles pic"
             width={150}
             height={200}
@@ -25,7 +25,7 @@ const TeamMembers = () => {
     
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projecttimages/sari.jpg"
+            src="/sd.github.io/sari.jpg"
             alt="sari pic"
             width={150}
             height={200}
@@ -40,7 +40,7 @@ const TeamMembers = () => {
     
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projecttimages/matt.jpg"
+            src="/sd.github.io/matt.jpg"
             alt="sari pic"
             width={150}
             height={200}
@@ -54,7 +54,7 @@ const TeamMembers = () => {
     
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projecttimages/marc.png"
+            src="/sd.github.io/marc.png"
             alt="sari pic"
             width={150}
             height={200}
@@ -82,7 +82,7 @@ const TeamMembers = () => {
     
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/vercel.svg"
+            src="/sd.github.io/ando.jpg"
             alt="sari pic"
             width={150}
             height={200}

@@ -13,13 +13,13 @@ const HomePage = () => {
     <p>The goal is to allow the client to have a more interactive experience to obtain a diagnosis of their issues.</p>
     <p>In addition, it will provide an insightful experience to the human body by being able to observe a detailed 3d model.</p>
     <Image
-      src='/sd.github.io/projecttimages/male.png'
+      src='/sd.github.io/male.png'
       alt='male body'
       width={250}
       height={300}
     />
     <Image
-      src='/sd.github.io/projecttimages/female.png'
+      src='/sd.github.io/female.png'
       alt='male body'
       width={250}
       height={300}
