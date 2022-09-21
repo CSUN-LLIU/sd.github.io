@@ -8,7 +8,7 @@ const GROUP_LINKS = [
   { id: 2, name: 'Project T', link: 'project-t' },
   { id: 3, name: 'Group 3', link: 'group-3' },
   { id: 4, name: 'Bit by Bit', link: 'bit-by-bit' },
-  { id: 5, name: 'Group 5', link: 'group-5' },
+  { id: 5, name: 'SenSci', link: 'SenSci' },
 ]
 
 const NavBar = ({ children }) => {
