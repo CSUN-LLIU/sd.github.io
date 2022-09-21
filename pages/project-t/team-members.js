@@ -68,7 +68,7 @@ const TeamMembers = () => {
     
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projecttimages/brent.jpg"
+            src="/sd.github.io/brent.jpg"
             alt="sari pic"
             width={150}
             height={200}
