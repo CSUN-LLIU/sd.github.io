@@ -10,7 +10,7 @@ const TeamMembers = () => {
       <body>
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projectTImages/charles.png"
+            src="/sd.github.io/projecttimages/charles.png"
             alt="charles pic"
             width={150}
             height={200}
@@ -25,7 +25,7 @@ const TeamMembers = () => {
       <body>
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projectTImages/sari.jpg"
+            src="/sd.github.io/projecttimages/sari.jpg"
             alt="sari pic"
             width={150}
             height={200}
@@ -40,13 +40,13 @@ const TeamMembers = () => {
       <body>
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projectTImages/matt.jpg"
+            src="/sd.github.io/projecttimages/matt.jpg"
             alt="sari pic"
             width={150}
             height={200}
           />
         </span>
-        <p className={styles.paragraph}>Matt Duong: I currently have some experience in Java, JavaScript, CSS, HTML, and MongoDB Database. I;m currently interested in learning more Python and LabView at my internship at JPL. I love to play drums and cosplay anime characters in my free time :^D </p>
+        <p className={styles.paragraph}>Matt Duong: I currently have some experience in Java, JavaScript, CSS, HTML, and MongoDB Database. I am currently interested in learning more Python and LabView at my internship at JPL. I love to play drums and cosplay anime characters in my free time :^D </p>
       </body>
     </div>
 
@@ -54,7 +54,7 @@ const TeamMembers = () => {
       <body>
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projectTImages/marc.png"
+            src="/sd.github.io/projecttimages/marc.png"
             alt="sari pic"
             width={150}
             height={200}
@@ -68,13 +68,13 @@ const TeamMembers = () => {
       <body>
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projectTImages/brent.jpg"
+            src="/sd.github.io/projecttimages/brent.jpg"
             alt="sari pic"
             width={150}
             height={200}
           />
         </span>
-        <p className={styles.paragraph}> Brent Ilejay: As a full-time student studying comptuer science, I love being creative in regards to music, fashion, and design. I'm always active whether it is skateboarding, working out, surfing, etc. Experience in C++, Java, Python, and Swift (App Development). I would like to get more into website/app development and potentially music software development. </p>
+        <p className={styles.paragraph}> Brent Ilejay: As a full-time student studying comptuer science, I love being creative in regards to music, fashion, and design. I am always active whether it is skateboarding, working out, surfing, etc. Experience in C++, Java, Python, and Swift (App Development). I would like to get more into website/app development and potentially music software development. </p>
       </body>
     </div>
 
@@ -82,7 +82,7 @@ const TeamMembers = () => {
       <body>
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projectTImages/ando.jpg"
+            src="/sd.github.io/projecttimages/ando.jpg"
             alt="sari pic"
             width={150}
             height={200}
