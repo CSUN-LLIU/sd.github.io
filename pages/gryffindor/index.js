@@ -1,7 +1,10 @@
 import React from 'react'
 
 const HomePage = () => {
-  return <div>hit here</div>
+  return <div>
+    <h1>Welcome to Team Gryffindor!</h1>
+    
+    </div>
 }
 
 export default HomePage
