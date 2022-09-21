@@ -10,7 +10,7 @@ const TeamMembers = () => {
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <Image src="" width="150px" height="200px" class="mb-3" alt=""/>
+                            <Image src="/sd.github.io/SenSci/Lemond.jpg" width="150px" height="200px" class="mb-3" alt=""/>
                             <h3 class="card-title mb-3">Lemond Wyatt</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur 
                                 adipisicing elit. Accusantium praesentium pariatur maxime veritatis doloremque! Doloribus?
@@ -22,7 +22,7 @@ const TeamMembers = () => {
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <Image src="" width="150px" height="200px"  class="mb-3" alt=""/>
+                            <Image src="/sd.github.io/SenSci/May.jpg" width="150px" height="200px"  class="mb-3" alt=""/>
                             <h3 class="card-title mb-3">Mahima Mishor</h3>
                             <p class="card-text">Senior in Computer Science. Interests include game development, 
                                 and web/app development. I would really like to work more with Swift and use it to develop an app. 
@@ -35,7 +35,7 @@ const TeamMembers = () => {
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <Image src="" width="150px" height="200px"  class="mb-3" alt=""/>
+                            <Image src="/sd.github.io/SenSci/LyanaCurry.png" width="150px" height="200px"  class="mb-3" alt=""/>
                             <h3 class="card-title mb-3">Lyana Curry</h3>
                             <p class="card-text">Computer Science Major
                           Interested in Front-End Web & Mobile Development
