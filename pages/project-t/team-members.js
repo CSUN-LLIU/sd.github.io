@@ -82,7 +82,7 @@ const TeamMembers = () => {
     
         <span className={styles.image}>
           <Image 
-            src="/sd.github.io/projecttimages/ando.jpg"
+            src="/sd.github.io/vercel.svg"
             alt="sari pic"
             width={150}
             height={200}
