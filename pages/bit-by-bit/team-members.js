@@ -23,8 +23,8 @@ const TeamMembers = () => {
 
     <div>
       <img src='/sd.github.io/bit-by-bit-pics/IMG_0196.JPG' alt='Jerry' width="150" height="150"></img>
-      Lucas Troutman
-      <li>Part-time Instructional Aide for a local school, hobby musician, with an interest in game-development.</li>
+      <li>Lucas Troutman</li>
+      Part-time Instructional Aide for a local school, hobby musician, with an interest in game-development.
     </div>
 
     <br></br>

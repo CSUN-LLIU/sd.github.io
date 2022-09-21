@@ -12,7 +12,7 @@ const ProjectArtifacts = () => {
     Videos
   */
  
-  return <div>Project Artifacts
+  return <div><h2>Project Artifacts</h2>
     <div>
       <h2>Prototype Design</h2>
     </div>

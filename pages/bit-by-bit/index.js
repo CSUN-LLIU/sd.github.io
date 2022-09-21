@@ -32,7 +32,7 @@ const HomePage = () => {
     </div>
 
     <div>
-      <h2>Project idea:</h2>
+      <h2>Project Idea:</h2>
         <p> We are going to continue the Computer Science and Nursing Project from last year. Continuing to add 
         features to the "check up" simulation, we will need to work with Unity, C#, and also add in 3D modeling and sound effects.
         The project will be accessible via a VR headset (tested on a Quest 2).
