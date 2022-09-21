@@ -1,0 +1,14 @@
+.container{
+    margin: 20px;
+    text-align: center;
+}
+
+.image{
+    float: left;
+    margin: 10px;
+}
+
+.paragraph{
+    text-align: justify;
+    font-size: 15px;
+}
