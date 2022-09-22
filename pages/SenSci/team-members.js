@@ -72,10 +72,10 @@ const TeamMembers = () => {
             <div className='card-body text-center'>
               <Image
                 src='/sd.github.io/SenSci/Isaias.jpg'
-                width='150px'
-                height='200px'
+                width={150}
+                height={200}
                 className='mb-3'
-                alt=''
+                alt='Isaias'
               />
               <h3 className='card-title mb-3'>Isaias Ramirez</h3>
               <p className='card-text'>
