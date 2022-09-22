@@ -12,7 +12,10 @@ const TeamMembers = () => {
    <Image src="" height="150px" width="150px" border="5px" class="mb-3" alt="" />
    <h5 class="card-title">Jazlyn Fernandez</h5>
       <p class="card-text"> 
-      /*add description here */
+      Hello I am Jazlyn, a Senior at CSUN, hoping to graduate in Spring 2023.
+       I have experience in mostly Java and some experience with C, C++. 
+       My interest in computer science is game developing and GUI design. But I am always open to learn more and improve my skills 
+       for this field.
        </p> 
       
     </div>
