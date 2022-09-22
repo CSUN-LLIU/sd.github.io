@@ -47,11 +47,10 @@ const TeamMembers = () => {
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <Image src="" width="150px" height="200px"  class="mb-3" alt=""/>
+                            <Image src="/sd.github.io/SenSci/Isaias.jpg" width="150px" height="200px"  class="mb-3" alt=""/>
                             <h3 class="card-title mb-3">Isaias Ramirez</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur 
-                                adipisicing elit. Accusantium praesentium pariatur maxime veritatis doloremque! Doloribus?
-                            </p>
+                            <p class="card-text"> Senior in computer science. Interested in front-end web and mobile devlopment.
+                            I have been developing in Java, C, HTML, CSS, Javascript and mips. I am looking into venturing into full stack development</p>
                         </div>
                     </div>
                     </div>
