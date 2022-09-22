@@ -71,7 +71,7 @@ const TeamMembers = () => {
           <div className='card bg-light'>
             <div className='card-body text-center'>
               <Image
-                src='/sd.github.io/SenSci/Isaias.jpg'
+                src='/sd.github.io/SenSci/Isaias.JPG'
                 width={150}
                 height={200}
                 className='mb-3'
