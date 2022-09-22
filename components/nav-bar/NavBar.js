@@ -22,12 +22,13 @@ const NavBar = ({ children }) => {
       <div className={styles.container} ref={navHeight}>
         <div className={styles.display}>
           {GROUP_LINKS.map((each) => (
-            <div
-              key={each.id}
-              style={{ display: 'flex', alignItems: 'center' }}>
-              <Link href={`/${each.link}`}>
-                <div className={styles.anchor}>{each.name}</div>
-              </Link>
+            <div key={each.id} className={styles.link_hover}>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
+                <Link href={`/${each.link}`}>
+                  <div className={styles.anchor}>{each.name}</div>
+                </Link>
+                <div className={styles.arrow} />
+              </div>
               <PopUp primaryLink={each.link} />
             </div>
           ))}

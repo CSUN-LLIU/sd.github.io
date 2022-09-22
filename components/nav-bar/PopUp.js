@@ -9,14 +9,12 @@ const POP_LINKS = [
 
 const PopUp = ({ primaryLink }) => {
   return (
-    <div className={styles.arrow}>
-      <div className={styles.popUp}>
-        {POP_LINKS.map((each) => (
-          <Link key={each.id} href={`/${primaryLink}/${each.link}`}>
-            <div className={styles.popUpAnchor}>{each.name}</div>
-          </Link>
-        ))}
-      </div>
+    <div className={styles.popUp}>
+      {POP_LINKS.map((each) => (
+        <Link key={each.id} href={`/${primaryLink}/${each.link}`}>
+          <div className={styles.popUpAnchor}>{each.name}</div>
+        </Link>
+      ))}
     </div>
   )
 }
