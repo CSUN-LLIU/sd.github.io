@@ -15,19 +15,31 @@ const HomePage = () => {
     
     <h1>Project: </h1> VR Clinic 
 
+    <p>
+      <img src="/sd.github.io/bit-by-bit-pics/unknown2.png" alt="Picture from a demo of VR Clinic" width="200" height="200"></img>
+    </p>
+
     <div>
       <h2>Problem:</h2>
         <p>
-        Ever since the pandemic hit in 2020, training for real life situations has been difficult and sometimes dangerous. 
-        This is true for a number of professions, but nursing deals with close contact between the patient and nurse, 
-        which can lead to possible transmission of disease.
-        <br></br><br></br>
-          Most student nurses practice examinations on other students. However, most students don’t exhibit signs of illness or stress,
-        and so students don’t get to learn a wide range of symptoms like they should.
-        <br></br><br></br>
-          We are going to solve both of these issues by allowing nurses to train and practice through the use of VR. 
-        These simulations will keep students safe by giving them the experience of learning what symptoms are linked to what illnesses,
-        without the risk of catching those illnesses.
+
+          <p>
+          Ever since the pandemic hit in 2020, training for real life situations has been difficult and sometimes dangerous. 
+          This is true for a number of professions, but nursing deals with close contact between the patient and nurse, 
+          which can lead to possible transmission of disease.
+          </p>
+
+          <p>
+            Most student nurses practice examinations on other students. However, most students don’t exhibit signs of illness or stress,
+          and so students don’t get to learn a wide range of symptoms like they should.
+          </p>
+
+          <p>
+            We are going to solve both of these issues by allowing nurses to train and practice through the use of VR. 
+          These simulations will keep students safe by giving them the experience of learning what symptoms are linked to what illnesses,
+          without the risk of catching those illnesses.
+          </p>
+
         </p>
     </div>
 
