@@ -71,7 +71,7 @@ const TeamMembers = () => {
           <div className='card bg-light'>
             <div className='card-body text-center'>
               <Image
-                src='/sd.github.io/vercel.svg'
+                src='/sd.github.io/SenSci/Isaias.jpg'
                 width='150px'
                 height='200px'
                 className='mb-3'
