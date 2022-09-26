@@ -9,7 +9,7 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="d-flex flex-column justify-content-center align-items-center bg-dark text-light p-5">
+      <div className="d-flex flex-column justify-content-center align-items-center p-5">
         <h1>Parking At CSUN <span className="text-warning">Made Easy</span></h1>
         <div className='lead'>No more standing in line for a parking pass</div>
       </div>
