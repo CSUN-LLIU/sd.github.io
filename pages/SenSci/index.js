@@ -18,25 +18,26 @@ const HomePage = () => {
         <section className="bg-primary text-light p-5">
           <div className="container row flex-column lead">
             <h2 class="">Problems</h2>
-            {'\n'}
-            <div class="">Parking at CSUN...</div>
-            {'\n'}
+            <br/>
+            <p>{`Parking at CSUN...\n`}</p>
             <p>
-              CSUN students who need to park on campus are spending an
+              {`CSUN students who need to park on campus are spending an
               increasing amount of time knowing how full a parking lot is,
               searching for spots that meet their personal needs of being close
               to a specific building or handicap accesibility, knowing if it's
               more value added to get a permit, citation payment concerns, and
-              dealing with getting parking tickets for daily use.
+              dealing with getting parking tickets for daily use.\n`}
             </p>
-            {"\n"}
             <p>
-              MataPark will solve these issues in one fluid app, dealing with
-              everything CSUN parking related for all students and faculty.
+            {`MataPark will solve these issues in one fluid app, dealing with
+            everything CSUN parking related for all students and faculty.\n`}
             </p>
-            {'\n'}
-            <p>Welcome to convenience.</p>
+            <p>{`Welcome to convenience.`}</p>
           </div>
+        </section>
+
+        <section className="">
+
         </section>
     </>
   );
