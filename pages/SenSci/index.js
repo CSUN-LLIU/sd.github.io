@@ -36,8 +36,8 @@ const HomePage = () => {
           </div>
         </section>
 
-        <section className="">
-
+        <section className="p-5">
+          <h2>Solution</h2>
         </section>
     </>
   );
