@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import Image from "next/image";
 
 const HomePage = () => {
-  let main = { backgroundColor: "#343a40", width: "100%" };
 
   return (
     <>
