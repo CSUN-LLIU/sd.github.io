@@ -66,7 +66,8 @@ var members = [
     bio: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
 		Accusantium praesentium pariatur maxime veritatis doloremque!
 		Doloribus?`,
-    pic: ``,
+    pic: `/sd.github.io/SenSci/Shashi.png`,
+
   },
 ]
 
