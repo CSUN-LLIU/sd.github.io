@@ -20,7 +20,10 @@ const HomePage = () => {
             <div class="col-md p-5">
               <h2 class="">Problems</h2>
               <p class="lead">
-                Parking at CSUN...
+                Parking at CSUN... <br/>
+                CSUN students who need to park on campus are spending an increasing amount of time knowing how full a parking lot is, searching for spots that meet their personal needs of being close to a specific building or handicap accesibility, knowing if it's more value added to get a permit, citation payment concerns, and dealing with getting parking tickets for daily use. <br/>
+                MataPark will solve these issues in one fluid app, dealing with everything CSUN parking related for all students and faculty. <br/>
+                Welcome to convenience.
               </p>
             </div>
           </div>
