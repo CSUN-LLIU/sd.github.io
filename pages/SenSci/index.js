@@ -20,22 +20,22 @@ const HomePage = () => {
           <div className="container row flex-column lead">
             <h2 class="">Problems</h2>
             <div class="">Parking at CSUN...</div>
-            <br/>
-            <div>
+            {'\n'}
+            <p>
               CSUN students who need to park on campus are spending an
               increasing amount of time knowing how full a parking lot is,
               searching for spots that meet their personal needs of being close
               to a specific building or handicap accesibility, knowing if it's
               more value added to get a permit, citation payment concerns, and
               dealing with getting parking tickets for daily use.
-            </div>
-            <br/>
-            <div>
+            </p>
+            {"\n"}
+            <p>
               MataPark will solve these issues in one fluid app, dealing with
               everything CSUN parking related for all students and faculty.
-            </div>
-            <br/>
-            <div>Welcome to convenience.</div>
+            </p>
+            {'\n'}
+            <p>Welcome to convenience.</p>
           </div>
         </section>
       </div>
