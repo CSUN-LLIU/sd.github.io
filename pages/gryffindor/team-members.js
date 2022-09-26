@@ -43,10 +43,10 @@ const TeamMembers = () => {
    <Image src="/sd.github.io/gryffindorpics/strawberry.jpg" height="150px" width="150px" border="5px" class="mb-3" alt="" />
    <h5 class="card-title">Kathareeya Atthajaroon</h5>
       <p class="card-text"> 
-      Greetings! I am Kathy, it is nice to meet everyone of you.
+      {`Greetings! I am Kathy, it is nice to meet everyone of you.
        I have experienced with UI/UX designs, Java/script, C,C++, NODE JS, basics of python, and MYSQL database.
        My current interest in the fields of computer science is data science, and hoping to improve my Python skills.
-       I am willing to learn more skills through new projects that I'm working on.
+       I am willing to learn more skills through new projects that I'm working on.`}
        </p> 
       
     </div>
