@@ -67,7 +67,6 @@ var members = [
     I am very interested in game design, cyber security, 
     and would love to work more with html and unity!`,
     pic: `/sd.github.io/SenSci/Shashi.png`,
-
   },
 ]
 
