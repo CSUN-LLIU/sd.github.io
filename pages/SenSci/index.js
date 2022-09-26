@@ -15,7 +15,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <section className="bg-primary text-light p-5">
+        <section className="bg-danger text-light p-5">
           <div className="container row flex-column lead">
             <h2 class="">Problems</h2>
             <br/>
