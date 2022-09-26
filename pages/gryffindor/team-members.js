@@ -65,7 +65,7 @@ const TeamMembers = () => {
     <div class="card h-100">
     <Image src="/sd.github.io-main/gryffindor/panda.jpg" height="150px" width="150px"  alt="" />
     <h5 class="card-title">Juan Vazquez</h5>
-      <p>Experience with Java, C++, C. Excited to work on any size project.</p>
+      <p>Experience with Java, C++, C. Excited to work on any type of software development especially game design.</p>
      
       </div>
       </div>
