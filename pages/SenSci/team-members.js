@@ -63,9 +63,9 @@ var members = [
   },
   {
     name: 'Shashi Wong',
-    bio: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-		Accusantium praesentium pariatur maxime veritatis doloremque!
-		Doloribus?`,
+    bio: `I am currently a Senior majoring in Computer Science. I have experience coding in C++, and JAVA. 
+    I am very interested in game design, cyber security, 
+    and would love to work more with html and unity!`,
     pic: `/sd.github.io/SenSci/Shashi.png`,
 
   },
