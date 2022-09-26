@@ -6,8 +6,7 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="container-fluid">
-        <div className="row flex-column justify-content-center align-items-center p-5">
+        <div className="d-flex flex-column justify-content-center align-items-center p-5">
           <h1>
             Parking At CSUN <span className="text-warning">Made Easy</span>
           </h1>
@@ -39,7 +38,6 @@ const HomePage = () => {
             <p>Welcome to convenience.</p>
           </div>
         </section>
-      </div>
     </>
   );
 };
