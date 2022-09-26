@@ -19,6 +19,7 @@ const HomePage = () => {
         <section className="bg-primary text-light p-5">
           <div className="container row flex-column lead">
             <h2 class="">Problems</h2>
+            {'\n'}
             <div class="">Parking at CSUN...</div>
             {'\n'}
             <p>
