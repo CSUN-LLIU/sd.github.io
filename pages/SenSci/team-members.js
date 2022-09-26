@@ -48,8 +48,7 @@ var members = [
   },
   {
     name: 'Lyana Curry',
-    bio: `Senior in Computer Science. <br />
-     Interested in Front-End Web & Mobile
+    bio: `Senior in Computer Science. Interested in Front-End Web & Mobile
 		Development Experience largely in Java, C++, HTML, CSS, and a
 		little experience with Python & JS`,
     pic: `/sd.github.io/SenSci/LyanaCurry.png`,
