@@ -27,8 +27,10 @@ const TeamMembers = () => {
    <Image src="" height="150px" width="150px" border="5px" class="mb-3" alt="" />
    <h5 class="card-title">Angelina Nantanapramoth</h5>
       <p class="card-text"> 
-      I have experience with GUI, Unity, Java, C#, C, and R. My interest CS is in regards to the development of communication and also game development. Nevertheless, I am not adverse to trying new things and gaining new skills.
-       </p> 
+      I have experience with GUI, Unity, Java, C#, C, and R. 
+      My interest CS is in regards to the development of communication and also game development. 
+      Nevertheless, I am not adverse to trying new things and gaining new skills.
+      </p> 
       
     </div>
       </div>
@@ -54,7 +56,8 @@ const TeamMembers = () => {
     <div class="card h-100">
     <Image src="/sd.github.io-main/gryffindor/panda.jpg" height="150px" width="150px"  alt="" />
     <h5 class="card-title">Daniel Esquivel</h5>
-      <p> Outside of class I enjoy hanging out with friends and learning new skills like drawing. I have experience using Java, C, and Swift, but I am always willing to learn new languages like Python or C++.</p>
+      <p> Outside of class I enjoy hanging out with friends and learning new skills like drawing. 
+        I have experience using Java, C, and Swift, but I am always willing to learn new languages like Python or C++.</p>
       </div>
       </div>
 
@@ -62,7 +65,7 @@ const TeamMembers = () => {
     <div class="card h-100">
     <Image src="/sd.github.io-main/gryffindor/panda.jpg" height="150px" width="150px"  alt="" />
     <h5 class="card-title">Juan Vazquez</h5>
-      <p>Experience with Java, C++, C.</p>
+      <p>Experience with Java, C++, C. Excited to work on any size project.</p>
      
       </div>
       </div>
