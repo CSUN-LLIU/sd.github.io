@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from '../../styles/bit-by-bit/styles.module.css'
 
 const ProjectArtifacts = () => {
   /*
@@ -11,24 +12,27 @@ const ProjectArtifacts = () => {
     Posters
     Videos
   */
- 
-  return <div><h1>Project Artifacts</h1>
-    <div>
-      <h2>Prototype Design</h2>
+
+  return (
+    <div className={styles.container}>
+      <h1>Project Artifacts</h1>
+      <div>
+        <h2>Prototype Design</h2>
+      </div>
+      <div>
+        <h2>Final Presentation</h2>
+      </div>
+      <div>
+        <h2>Final Project Report</h2>
+      </div>
+      <div>
+        <h2> Posters </h2>
+      </div>
+      <div>
+        <h2>Videos</h2>
+      </div>
     </div>
-    <div>
-      <h2>Final Presentation</h2>
-    </div>
-    <div>
-      <h2>Final Project Report</h2>
-    </div>
-    <div>
-     <h2> Posters </h2>
-    </div>
-    <div>
-      <h2>Videos</h2>
-    </div>
-  </div>
+  )
 }
 
 export default ProjectArtifacts
