@@ -14,6 +14,13 @@ const HomePage = () => {
             No more standing in line for a parking pass
           </div>
         </div>
+        <Image
+            src='/sd.github.io/Sensci/Parked-Cars.jpg'
+            alt='parked cars'
+            objectFit="cover"
+            width={2000}
+            height={200}
+            />
 
         <section className="bg-danger text-light p-5">
           <div className="container row flex-column lead">
