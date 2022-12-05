@@ -13,7 +13,7 @@ const ProjectArtifacts = () => {
       </p>
       <h2>Final Presentation</h2>
       <p>
-          PLACE HOLDER
+          Thank you for wanting to know more about our project, <i>Venus </i>
       </p>
       <h2>Final Project Report</h2>
       <p>
