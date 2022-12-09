@@ -55,6 +55,7 @@ const HomePage = () => {
       <li> Guided Center and Further Steps/Recommendations</li>
       <li> Patient Report</li>
       <Image
+        style={{boxShadow: `-1px -1px 20px`}}
         src='/sd.github.io/project-t-pics/male.png'
         alt='male body'
         width={250}
