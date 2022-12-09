@@ -33,7 +33,7 @@ const HomePage = () => {
     
     <p>
     &emsp;Our proposed solution for this problem is to create an AI helper called Venus that can learn the players play-style and situations where the player is having difficulty.<br></br>
-    The proof of concept would take this AI helper and apply it to a confusingly fun browser based game called <i>The House, by Arthur Kot</i><br></br>
+    The proof of concept would take this AI helper and apply it to a confusingly fun browser based game called <strong><a herf="https://the-house.arturkot.pl/"> The House </a></strong>by Arthur Kot<br></br>
     As the game is browser based we will have to implement a way to capture the users gameplay then send this back to the users game state to allow the new solution to play out.<br></br>
     
     </p>
