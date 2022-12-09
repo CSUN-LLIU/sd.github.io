@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import '/sd.github.io/projectTCSS/styles.modules.css'
 
 const HomePage = () => {
   return (
