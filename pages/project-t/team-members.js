@@ -4,12 +4,13 @@ import styles from '../../styles/projectTCSS/styles.module.css'
 
 const TeamMembers = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} >
       <h1>Team Members:</h1>
 
       <div >
         <span className={styles.image}>
           <Image
+            style={{boxShadow: `-1px -1px 20px`}}
             src='/sd.github.io/project-t-pics/charles.png'
             alt='charles pic'
             width={150}
