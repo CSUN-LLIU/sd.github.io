@@ -6,6 +6,7 @@
 .image{
     float: left;
     margin: 10px;
+    box-shadow: -1px -1px 20px;
 }
 
 .paragraph{
@@ -15,8 +16,4 @@
 
 .header{
     text-align: center;
-}
-
-.shadow{
-    box-shadow: -1px -1px 20px;
 }

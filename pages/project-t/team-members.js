@@ -10,7 +10,6 @@ const TeamMembers = () => {
       <div >
         <span className={styles.image}>
           <Image
-            className={styles.shadow}
             src='/sd.github.io/project-t-pics/charles.png'
             alt='charles pic'
             width={150}
@@ -27,7 +26,6 @@ const TeamMembers = () => {
       <div >
         <span className={styles.image}>
           <Image
-            className={styles.shadow}
             src='/sd.github.io/project-t-pics/sari.jpg'
             alt='sari pic'
             width={150}
@@ -45,7 +43,6 @@ const TeamMembers = () => {
       <div >
         <span className={styles.image}>
           <Image
-            className={styles.shadow}
             src='/sd.github.io/project-t-pics/matt.jpg'
             alt='sari pic'
             width={150}
@@ -63,7 +60,6 @@ const TeamMembers = () => {
       <div >
         <span className={styles.image}>
           <Image
-            className={styles.shadow}
             src='/sd.github.io/project-t-pics/marc.png'
             alt='sari pic'
             width={150}
@@ -81,7 +77,6 @@ const TeamMembers = () => {
       <div >
         <span className={styles.image}>
           <Image
-            className={styles.shadow}
             src='/sd.github.io/project-t-pics/brent.jpg'
             alt='sari pic'
             width={150}
@@ -102,7 +97,6 @@ const TeamMembers = () => {
       <div >
         <span className={styles.image}>
           <Image
-            className={styles.shadow}
             src='/sd.github.io/project-t-pics/ando.jpg'
             alt='sari pic'
             width={150}

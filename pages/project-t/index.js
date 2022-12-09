@@ -5,7 +5,7 @@ import styles from '../../styles/bit-by-bit/styles.module.css'
 const HomePage = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.header}>Problem</h1>
+      <h1 className={styles.header} style={{textAlign: `center`}}>Problem</h1>
       <p>
          Patients are not able to quickly have an idea of their health issues in a timely manner. 
          This is a problem because time and money is wasted from visiting a hospital to utilizing their resources such as nurses, tools, 
