@@ -6,6 +6,13 @@ const HomePage = () => {
     <div>
       <h1>Problem: </h1>
       <p>
+         Patients are not able to quickly have an idea of their health issues in a timely manner. 
+         This is a problem because time and money is wasted from visiting a hospital to utilizing their resources such as nurses, tools, 
+         and physical space to provide for patients with higher urgency.
+         Low income patients also do not have easily accessible funds to pay for costly diagnoses. 
+         In addition, patients have a higher risk of infections and diseases visiting hospitals.
+      </p> 
+      {/* <p>
         Wasted resources including time, money, and resources spent for patients
         to get a triage for their issue.
       </p>
@@ -22,7 +29,7 @@ const HomePage = () => {
         Resources: the ability to save resources for hospitals and healthcare
         locations is also big, this will allow space for bigger emergencies at
         those facilities rather than a typical visit.
-      </ul>
+      </ul> */}
       <h1>Project Idea: </h1>
       <p>
         A website to triage a patient in order to save time and money spent to
