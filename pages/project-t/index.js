@@ -32,8 +32,8 @@ const HomePage = () => {
       </ul> */}
       <h1>Project Idea 'Solution': </h1>
       <p>
-      The team will develop a medical diagnosis website that allows the user to interact with a 3D anatomical model, answer respective medical probing questions, 
-      and select symptoms in order to receive a clear and informative diagnosis with further recommendations.
+        The team will develop a medical diagnosis website that allows the user to interact with a 3D anatomical model, answer respective medical probing questions, 
+        and select symptoms in order to receive a clear and informative diagnosis with further recommendations.
       </p>
       {/* <p>
         A website to triage a patient in order to save time and money spent to
