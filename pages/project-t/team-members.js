@@ -4,7 +4,7 @@ import styles from '../../styles/projectTCSS/styles.module.css'
 
 const TeamMembers = () => {
   return (
-    <div className={styles.container} style={{backgroundColor: `#262626`}}>
+    <div className={styles.container}>
       <h1>Team Members:</h1>
 
       <div >

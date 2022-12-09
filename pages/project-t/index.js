@@ -4,7 +4,7 @@ import styles from '../../styles/bit-by-bit/styles.module.css'
 
 const HomePage = () => {
   return (
-    <div className={styles.container} style={{backgroundColor: `#262626`}}>
+    <div className={styles.container} >
       <h1 className={styles.header} style={{textAlign: `center`}}>Problem</h1>
       <p>
          Patients are not able to quickly have an idea of their health issues in a timely manner. 
