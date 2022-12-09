@@ -1,5 +1,5 @@
 .container{
-    margin: 20px;
+    margin: 50px;
     text-align: center;
 }
 
@@ -15,4 +15,8 @@
 
 .header{
     text-align: center;
+}
+
+.shadow{
+    box-shadow: -1px -1px 20px;
 }

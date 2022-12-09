@@ -4,12 +4,13 @@ import styles from '../../styles/projectTCSS/styles.module.css'
 
 const TeamMembers = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Team Members:</h1>
 
-      <div className={styles.container}>
+      <div >
         <span className={styles.image}>
           <Image
+            className={styles.shadow}
             src='/sd.github.io/project-t-pics/charles.png'
             alt='charles pic'
             width={150}
@@ -23,9 +24,10 @@ const TeamMembers = () => {
         </p>
       </div>
 
-      <div className={styles.container}>
+      <div >
         <span className={styles.image}>
           <Image
+            className={styles.shadow}
             src='/sd.github.io/project-t-pics/sari.jpg'
             alt='sari pic'
             width={150}
@@ -40,9 +42,10 @@ const TeamMembers = () => {
         </p>
       </div>
 
-      <div className={styles.container}>
+      <div >
         <span className={styles.image}>
           <Image
+            className={styles.shadow}
             src='/sd.github.io/project-t-pics/matt.jpg'
             alt='sari pic'
             width={150}
@@ -57,9 +60,10 @@ const TeamMembers = () => {
         </p>
       </div>
 
-      <div className={styles.container}>
+      <div >
         <span className={styles.image}>
           <Image
+            className={styles.shadow}
             src='/sd.github.io/project-t-pics/marc.png'
             alt='sari pic'
             width={150}
@@ -74,9 +78,10 @@ const TeamMembers = () => {
         </p>
       </div>
 
-      <div className={styles.container}>
+      <div >
         <span className={styles.image}>
           <Image
+            className={styles.shadow}
             src='/sd.github.io/project-t-pics/brent.jpg'
             alt='sari pic'
             width={150}
@@ -94,9 +99,10 @@ const TeamMembers = () => {
         </p>
       </div>
 
-      <div className={styles.container}>
+      <div >
         <span className={styles.image}>
           <Image
+            className={styles.shadow}
             src='/sd.github.io/project-t-pics/ando.jpg'
             alt='sari pic'
             width={150}
