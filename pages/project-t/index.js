@@ -5,7 +5,7 @@ import styles from '../../styles/bit-by-bit/styles.module.css'
 const HomePage = () => {
   return (
     <div className={styles.container}>
-      <h1>Problem: </h1>
+      <h1 className={styles.header}>Problem: </h1>
       <p>
          Patients are not able to quickly have an idea of their health issues in a timely manner. 
          This is a problem because time and money is wasted from visiting a hospital to utilizing their resources such as nurses, tools, 
@@ -31,7 +31,7 @@ const HomePage = () => {
         locations is also big, this will allow space for bigger emergencies at
         those facilities rather than a typical visit.
       </ul> */}
-      <h1>Project Idea : </h1>
+      <h1 className={styles.header}>Project Idea : </h1>
       <p>
         The team will develop a medical diagnosis website that allows the user to interact with a 3D anatomical model, answer respective medical probing questions, 
         and select symptoms in order to receive a clear and informative diagnosis with further recommendations.
@@ -48,7 +48,7 @@ const HomePage = () => {
         In addition, it will provide an insightful experience to the human body
         by being able to observe a detailed 3d model.
       </p> */}
-      <h1>Summary of Requirements: </h1> 
+      <h1 className={styles.header}>Summary of Requirements: </h1> 
       <li> Interactive 3D Model -  Human Anatomical Model</li>
       <li> Patient Assessment - Medical Probing Questions and Symptom Options</li>
       <li> Diagnosis Info</li>
