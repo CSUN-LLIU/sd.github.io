@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ProjectArtifacts = () => {
-  return <div>
+  return <div style={{backgroundColor: `#262626`}}>
     <h1>Project Artifacts </h1> 
     <p>Prototype Design</p> 
     <p>Final Presentation</p> 
