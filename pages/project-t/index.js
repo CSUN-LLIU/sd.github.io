@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import styles from '../../styles/bit-by-bit/styles.module.css'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Problem: </h1>
       <p>
          Patients are not able to quickly have an idea of their health issues in a timely manner. 
