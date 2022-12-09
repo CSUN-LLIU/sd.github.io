@@ -30,8 +30,12 @@ const HomePage = () => {
         locations is also big, this will allow space for bigger emergencies at
         those facilities rather than a typical visit.
       </ul> */}
-      <h1>Project Idea: </h1>
+      <h1>Project Idea 'Solution': </h1>
       <p>
+      The team will develop a medical diagnosis website that allows the user to interact with a 3D anatomical model, answer respective medical probing questions, 
+      and select symptoms in order to receive a clear and informative diagnosis with further recommendations.
+      </p>
+      {/* <p>
         A website to triage a patient in order to save time and money spent to
         get direction on the best next step.
       </p>
@@ -42,7 +46,7 @@ const HomePage = () => {
       <p>
         In addition, it will provide an insightful experience to the human body
         by being able to observe a detailed 3d model.
-      </p>
+      </p> */}
       <h1>Summary of Requirements: </h1> 
       <li> Interactive 3D Model -  Human Anatomical Model</li>
       <li> Patient Assessment - Medical Probing Questions and Symptom Options</li>
