@@ -54,19 +54,20 @@ const HomePage = () => {
       <li> Diagnosis Info</li>
       <li> Guided Center and Further Steps/Recommendations</li>
       <li> Patient Report</li>
-      <Image
-        style={{boxShadow: `-1px -1px 20px`}}
-        src='/sd.github.io/project-t-pics/male.png'
-        alt='male body'
-        width={250}
-        height={300}
-      />
-      <Image
-        src='/sd.github.io/project-t-pics/female.png'
-        alt='female body'
-        width={250}
-        height={300}
-      />
+      <div style={{position: `center`}}>
+        <Image
+          src='/sd.github.io/project-t-pics/male.png'
+          alt='male body'
+          width={250}
+          height={300}
+        />
+        <Image
+          src='/sd.github.io/project-t-pics/female.png'
+          alt='female body'
+          width={250}
+          height={300}
+        />
+      </div> 
     </div>
   )
 }
