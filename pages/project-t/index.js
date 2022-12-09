@@ -63,7 +63,7 @@ const HomePage = () => {
       />
       <Image
         src='/sd.github.io/project-t-pics/female.png'
-        alt='male body'
+        alt='female body'
         width={250}
         height={300}
       />
