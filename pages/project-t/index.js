@@ -36,6 +36,16 @@ const HomePage = () => {
         In addition, it will provide an insightful experience to the human body
         by being able to observe a detailed 3d model.
       </p>
+      <h1>
+      Summary of Requirements: 
+      </h1> 
+      <li>
+      Interactive 3D Model -  Human Anatomical Model
+      Patient Assessment - Medical Probing Questions and Symptom Options
+      Diagnosis Info
+      Guided Center and Further Steps/Recommendations
+      Patient Report
+      </li>
       <Image
         src='/sd.github.io/project-t-pics/male.png'
         alt='male body'
