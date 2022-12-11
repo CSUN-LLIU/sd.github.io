@@ -14,7 +14,7 @@ const ProjectArtifacts = () => {
           <p>
             Our current official project documentation can be found
             <Link href='https://docs.google.com/document/d/1W8AYJvntC81KEhiRTthsnQXE__kXxjszISBdXba7k30/edit?usp=sharing'>
-              <strong> through this link</strong>
+              <strong style={{ cursor: 'pointer' }}> through this link</strong>
             </Link>
           </p>
         </div>
@@ -39,7 +39,7 @@ const ProjectArtifacts = () => {
           <p>
             Our original mockup through figma can be seen
             <Link href='https://www.figma.com/proto/UvsKT4Mr2HHBQ2lVhRGDXn/Sensci?node-id=104%3A3'>
-              <strong> Here</strong>
+              <strong style={{ cursor: 'pointer' }}> Here</strong>
             </Link>
           </p>
         </div>
@@ -52,19 +52,25 @@ const ProjectArtifacts = () => {
           <ul>
             <li>
               <Link href='https://docs.google.com/presentation/d/1F1gokomLcg2TaZxro8V1LoMdwN3igK3UMj9yOxfw_oc/edit?usp=sharing'>
-                <strong> First Presentation (10/19)</strong>
+                <strong style={{ cursor: 'pointer' }}>
+                  First Presentation (10/19)
+                </strong>
               </Link>
             </li>
             <br />
             <li>
               <Link href='https://docs.google.com/presentation/d/1DL4skIaf1X5FcFdBXsvaYY46K5TqpbXgwjt0Ryj1tTA/edit?usp=sharing'>
-                <strong> Update Presentation for Sponsor (11/15)</strong>
+                <strong style={{ cursor: 'pointer' }}>
+                  Update Presentation for Sponsor (11/15)
+                </strong>
               </Link>
             </li>
             <br />
             <li>
               <Link href='https://docs.google.com/presentation/d/1xVa58xZhgdAnUQCorHjk01xcKRqMZPMOSaaie21Z8fc/edit?usp=sharing'>
-                <strong> Second Presentation (12/07)</strong>
+                <strong style={{ cursor: 'pointer' }}>
+                  Second Presentation (12/07)
+                </strong>
               </Link>
             </li>
           </ul>
