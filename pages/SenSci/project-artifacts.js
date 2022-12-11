@@ -24,7 +24,7 @@ const ProjectArtifacts = () => {
       <div>
       <Image
         src="/sd.github.io/Sensci/Homepage_Proto.png"
-        alt="parked cars"
+        alt="prototype homepage"
         width={300}
         height={200}
         border
@@ -32,7 +32,7 @@ const ProjectArtifacts = () => {
       &emsp;
       <Image
         src="/sd.github.io/Sensci/Availabilitypage_Proto.png"
-        alt="parked cars"
+        alt="prototype availability page"
         width={300}
         height={200}
       />
@@ -48,7 +48,22 @@ const ProjectArtifacts = () => {
     <section>
     <h2> Presentations </h2>
       <div>
-        <p><a></a></p>
+      <p>
+          Fall Semester 2022: <br/>
+          <ul>
+            <li><a href='https://docs.google.com/presentation/d/1F1gokomLcg2TaZxro8V1LoMdwN3igK3UMj9yOxfw_oc/edit?usp=sharing' target={'_blank'}>
+              <strong>  First Presentation (10/19)</strong>
+            </a></li>
+            <br/>
+            <li><a href='https://docs.google.com/presentation/d/1DL4skIaf1X5FcFdBXsvaYY46K5TqpbXgwjt0Ryj1tTA/edit?usp=sharing' target={'_blank'}>
+              <strong>  Update Presentation for Sponsor (11/15)</strong>
+            </a></li>
+            <br/>
+            <li><a href='https://docs.google.com/presentation/d/1xVa58xZhgdAnUQCorHjk01xcKRqMZPMOSaaie21Z8fc/edit?usp=sharing' target={'_blank'}>
+              <strong>  Second Presentation (12/07)</strong>
+            </a></li>
+          </ul>
+        </p>
       </div>
     </section>
 
