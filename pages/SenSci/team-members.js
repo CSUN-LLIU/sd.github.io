@@ -23,6 +23,11 @@ const Card = (props) => (
 const TeamMembers = () => {
   return (
     <>
+    <div className="d-flex flex-column justify-content-center align-items-center p-5">
+        <h1>
+          Meet <span className="text-danger">Team Sensci</span>
+        </h1>
+      </div>
       <div className='row g-4'>
         {(() => members.map((i, index) => <Card key={index} member={i} />))()}
       </div>

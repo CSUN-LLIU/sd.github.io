@@ -33,23 +33,28 @@ const HomePage = () => {
           <br />
           <p>{`Parking at CSUN...\n`}</p>
           <p>
-            {`CSUN students who need to park on campus are spending an
-              increasing amount of time knowing how full a parking lot is,
+            {`CSUN students and visitors who need to park on campus are spending an
+              increasing amount of time getting information on how full a parking lot is,
               searching for spots that meet their personal needs of being close
-              to a specific building or handicap accesibility, knowing if it's
-              more value added to get a permit, citation payment concerns, and
-              dealing with getting parking tickets for daily use.\n`}
+              to a specific building or handicap accessibility, knowing if it's
+              more value added to get a permit, where to go if they want to safely park on 
+              the streets instead, and getting information on alternative 
+              transportation.\n`}
           </p>
-          <p>
-            {`MataPark will solve these issues in one fluid app, dealing with
-            everything CSUN parking related for all students and faculty.\n`}
-          </p>
-          <p>{`Welcome to convenience.`}</p>
         </div>
       </section>
 
       <section className="p-5">
+      <div className="container row flex-column lead">
         <h2>Solution</h2>
+        <p>
+          {`MataPark will solve these issues in one fluid web application, providing info and advice
+          on all things CSUN parking and transportation that truely matter to students, visitors, 
+          and faculty. CSUN transportation information- customized to you.`} <br/>
+          {`For the students, by the students.`} <br/>
+          {`Welcome to convenience.`}
+        </p>
+      </div>
       </section>
     </>
   );
