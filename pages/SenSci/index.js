@@ -20,7 +20,7 @@ const HomePage = () => {
         </div>
       </div>
       <Image
-        src='/sd.github.io/Sensci/Parked-Cars.jpg'
+        src='/sd.github.io/SenSci/Parked-Cars.jpg'
         alt='parked cars'
         objectFit='cover'
         width={2000}

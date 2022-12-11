@@ -24,14 +24,14 @@ const ProjectArtifacts = () => {
         <h2> Prototype Design </h2>
         <div>
           <Image
-            src='/sd.github.io/Sensci/Homepage_Proto.png'
+            src='/sd.github.io/SenSci/Homepage_Proto.png'
             alt='prototype homepage'
             width={300}
             height={200}
           />
           &emsp;
           <Image
-            src='/sd.github.io/Sensci/Availabilitypage_Proto.png'
+            src='/sd.github.io/SenSci/Availabilitypage_Proto.png'
             alt='prototype availability page'
             width={300}
             height={200}
