@@ -9,8 +9,8 @@ const ProjectArtifacts = () => {
       <Image
         src='/sd.github.io/project-t-pics/ERD.png'
         alt='ERD pic'
-        width= {500}
-        height={500}
+        width= {650}
+        height={650}
       />
     <h2>Final Presentation</h2> 
       <p>
