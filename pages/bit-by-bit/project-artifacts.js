@@ -14,12 +14,15 @@ const ProjectArtifacts = () => {
   */
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{textAlign: `center`}}>
+      <br></br>
       <h1>Project Artifacts</h1>
       <div>
           <h2>Prototype Design</h2>
       </div>
+
       <div>
+        <br></br>
         <h2>Final Presentation</h2>
         <u>
           <a href='https://docs.google.com/presentation/d/1BuEe8iQ_Ywgp9cOHZ5KoI-HhuYO0zJxLnIjdoz38bnM/edit?usp=sharing'>
@@ -27,7 +30,9 @@ const ProjectArtifacts = () => {
           </a>
         </u>
       </div>
+
       <div>
+        <br></br>
         <h2>Final Project Report</h2>
         <u>
           <a href='https://docs.google.com/document/d/1qJDFJC3khcYYVn2EBiwrGAlK04vukSo7/edit?usp=sharing&ouid=100717398472660853610&rtpof=true&sd=true'>
@@ -35,14 +40,19 @@ const ProjectArtifacts = () => {
           </a>
         </u>
       </div>
+
       <div>
+      <br></br>
         <h2> Posters </h2>
       </div>
+      
       <div>
+      <br></br>
         <h2>Videos</h2>
       </div>
     </div>
-  )
+  ) 
+
 }
 
 export default ProjectArtifacts
