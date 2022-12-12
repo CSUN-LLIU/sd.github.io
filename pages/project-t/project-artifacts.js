@@ -3,7 +3,8 @@ import Image from 'next/image'
 import styles from '../../styles/projectTCSS/styles.module.css'
 
 const ProjectArtifacts = () => {
-  return <div className={styles.container}>
+  return (
+  <div className={styles.container}>
     <h1>Project Artifacts </h1> 
     <h2>Prototype Design</h2> 
       <Image
@@ -27,6 +28,7 @@ const ProjectArtifacts = () => {
     <h2>Posters</h2> 
     <h2>Videos</h2> 
   </div>
+  )
 }
 
 export default ProjectArtifacts
