@@ -12,7 +12,7 @@ const TeamMembers = () => {
           <div className='card h-100'>
             <Image
               src='/sd.github.io/gryffindorpics/cinnamoroll.jpg'
-              height='250px'
+              height='350px'
               width='250px'
               border='5px'
               className='mb-3'
@@ -33,7 +33,7 @@ const TeamMembers = () => {
           <div className='card h-100'>
             <Image
               src='/sd.github.io/gryffindorpics/mymelody.jpg'
-              height='250px'
+              height='350px'
               width='250px'
               border='5px'
               className='mb-3'
@@ -51,7 +51,7 @@ const TeamMembers = () => {
           <div className='card h-100'>
             <Image
               src='/sd.github.io/gryffindorpics/pochacco.jpg'
-              height='250px'
+              height='350px'
               width='250px'
               border='5px'
               className='mb-3'
@@ -71,7 +71,7 @@ const TeamMembers = () => {
           <div className='card h-100'>
             <Image
               src='/sd.github.io/gryffindorpics/keroppi.jpg'
-              height='250px'
+              height='350px'
               width='250px'
               border='5px'
               className='mb-3'
@@ -89,7 +89,7 @@ const TeamMembers = () => {
           <div className='card h-100'>
             <Image
               src='/sd.github.io/gryffindorpics/badtzmaru.jpeg'
-              height='250px'
+              height='350px'
               width='250px'
               border='5px'
               className='mb-3'
@@ -106,7 +106,7 @@ const TeamMembers = () => {
           <div className='card h-100'>
             <Image
               src='/sd.github.io/gryffindorpics/pompom.jpeg'
-              height='250px'
+              height='350px'
               width='250px'
               border='5px'
               className='mb-3'
