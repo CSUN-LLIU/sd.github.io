@@ -13,9 +13,9 @@ const ProjectArtifacts = () => {
         <div>
           <p>
             Our current official project documentation can be found
-            <Link href='https://docs.google.com/document/d/1W8AYJvntC81KEhiRTthsnQXE__kXxjszISBdXba7k30/edit?usp=sharing'>
+            <a href='https://docs.google.com/document/d/1W8AYJvntC81KEhiRTthsnQXE__kXxjszISBdXba7k30/edit?usp=sharing'>
               <strong style={{ cursor: 'pointer' }}> through this link</strong>
-            </Link>
+            </a>
           </p>
         </div>
       </section>
@@ -38,9 +38,9 @@ const ProjectArtifacts = () => {
           />
           <p>
             Our original mockup through figma can be seen
-            <Link href='https://www.figma.com/proto/UvsKT4Mr2HHBQ2lVhRGDXn/Sensci?node-id=104%3A3'>
+            <a href='https://www.figma.com/proto/UvsKT4Mr2HHBQ2lVhRGDXn/Sensci?node-id=104%3A3'>
               <strong style={{ cursor: 'pointer' }}> Here</strong>
-            </Link>
+            </a>
           </p>
         </div>
       </section>
@@ -51,27 +51,27 @@ const ProjectArtifacts = () => {
           Fall Semester 2022: <br />
           <ul>
             <li>
-              <Link href='https://docs.google.com/presentation/d/1F1gokomLcg2TaZxro8V1LoMdwN3igK3UMj9yOxfw_oc/edit?usp=sharing'>
+              <a href='https://docs.google.com/presentation/d/1F1gokomLcg2TaZxro8V1LoMdwN3igK3UMj9yOxfw_oc/edit?usp=sharing'>
                 <strong style={{ cursor: 'pointer' }}>
                   First Presentation (10/19)
                 </strong>
-              </Link>
+              </a>
             </li>
             <br />
             <li>
-              <Link href='https://docs.google.com/presentation/d/1DL4skIaf1X5FcFdBXsvaYY46K5TqpbXgwjt0Ryj1tTA/edit?usp=sharing'>
+              <a href='https://docs.google.com/presentation/d/1DL4skIaf1X5FcFdBXsvaYY46K5TqpbXgwjt0Ryj1tTA/edit?usp=sharing'>
                 <strong style={{ cursor: 'pointer' }}>
                   Update Presentation for Sponsor (11/15)
                 </strong>
-              </Link>
+              </a>
             </li>
             <br />
             <li>
-              <Link href='https://docs.google.com/presentation/d/1xVa58xZhgdAnUQCorHjk01xcKRqMZPMOSaaie21Z8fc/edit?usp=sharing'>
+              <a href='https://docs.google.com/presentation/d/1xVa58xZhgdAnUQCorHjk01xcKRqMZPMOSaaie21Z8fc/edit?usp=sharing'>
                 <strong style={{ cursor: 'pointer' }}>
                   Second Presentation (12/07)
                 </strong>
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
@@ -79,13 +79,20 @@ const ProjectArtifacts = () => {
 
       <section>
         <h2> Misc </h2>
-        <div></div>
+        <div>Product Beta</div>
+				<a href='https://lucent-douhua-90f874.netlify.app/'>
+            https://lucent-douhua-90f874.netlify.app/
+          </a>
+				<div>Source Code</div>
+				<a href='https://github.com/Auraxium/MataPark'>
+            https://github.com/Auraxium/MataPark
+          </a>
       </section>
 
-      <section>
+      {/* <section>
         <h2> Videos </h2>
         <div></div>
-      </section>
+      </section> */}
     </div>
   )
 }
