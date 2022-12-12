@@ -11,6 +11,7 @@ const ProjectArtifacts = () => {
         alt='ERD pic'
         width= {650}
         height={650}
+        className={styles.header}
       />
     <h2>Final Presentation</h2> 
       <p>
