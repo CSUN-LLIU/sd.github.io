@@ -14,7 +14,7 @@ const ProjectArtifacts = () => {
         height={650}
         className={styles.header}
       />
-      <p> 
+      <p className={styles.container}> 
         The &#39;User&#39; entity contains the preliminary information that the user will specify such as age, sex, and the selected body part. The REST API then narrows down the probing analysis questions and symptoms based on the user&#39;s input provided from. This process repeats until enough information about the patient&#39;s issue is gathered. Then, analysis from the user&#39;s answers leads to the &#39;Results&#39; entity with further diagnosis information and resources towards care. 
       </p>
     <h2>Final Presentation</h2> 
