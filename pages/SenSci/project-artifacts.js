@@ -9,7 +9,7 @@ const ProjectArtifacts = () => {
       <h1>Project Artifacts</h1>
 
       <section>
-        <h2> Final Project Report </h2>
+        <h2> Final Project Report & Documentation</h2>
         <div>
           <p>
             Our current official project documentation can be found
