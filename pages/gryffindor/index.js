@@ -52,6 +52,7 @@ const HomePage = () => {
       * Data created by the solution would be created just in time, nothing is saved *<br></br>
       &emsp;&emsp;- User data in this modern era is tantamount to gold, keeping it temporarily is our goal.<br></br>
     </p>
+    
     </div>
 }
 
