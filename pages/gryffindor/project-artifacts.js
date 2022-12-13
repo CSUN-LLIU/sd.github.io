@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const ProjectArtifacts = () => {
   return <div>
@@ -12,6 +13,12 @@ const ProjectArtifacts = () => {
     <p>
     &emsp;&emsp;With the implementation of our protoype, we hope to have it be fruitful for gamers in that they can accomplish the goal of enjoying thier games.<br></br>
     &emsp;&emsp;Furthermore for future use, Venus can be used to advise gamers in other browser adventures, this will be avalible via a browser plugin.
+      </p>
+      <h2>Initial Presentation</h2>
+      <p>
+      &emsp;&emsp;For our initial presentation and overview of our senior design project.<br></br>
+      &emsp;&emsp;Please click here to take <strong><a href="https://docs.google.com/presentation/d/1nb9jVMWPHdwR6PGyTkKCZMONJ6CIx03sp8yXyCILbw8/edit#slide=id.g1f87997393_0_782"> a look. </a></strong>  
+      
       </p>
       <h2>Final Presentation</h2>
       <p>
@@ -32,6 +39,7 @@ const ProjectArtifacts = () => {
 
       &emsp;&emsp;Finally we would like to thank our professor, Dr Li Liu, for giving us a nudge in the right <strong><a href="https://ieeexplore.ieee.org/document/8122747"> direction. </a></strong>
       </p>
+      
     </div>
 }
 
