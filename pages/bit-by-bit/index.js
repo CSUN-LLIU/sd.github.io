@@ -1,61 +1,62 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../../styles/bit-by-bit/styles.module.css'
+
 const HomePage = () => {
-  /*
-  1. A homepage
-  This page includes a Project Synopsis which introduces your project. Answer the following questions in separate paragraphs:
-
-  (1) What is the problem being addressed?
-
-  (2) What is your project idea and how will it work (what are its components etc.)
-
-  Use pictures/images to make the page interesting.
-  */
   return (
-    <div className={styles.container}>
-      <h1>Project: </h1> VR Clinic
+    <div className={styles.container} style={{textAlign: `center`}} >
+      <h1>Nursing VR</h1> 
       <p>
-        <Image
-          src='/sd.github.io/bit-by-bit-pics/unknown2.png'
-          alt='Picture from a demo of VR Clinic'
-          width={200}
-          height={200}
+        <Image className={styles.header} style={{textAlign: `center`}}
+          src='/sd.github.io/bit-by-bit-pics/ACL_1.png'
+          alt='Picture of a simulated patient within Nursing VR'
+          width={250}
+          height={250}
+        />
+
+        <Image className={styles.header} style={{textAlign: `center`}}
+          src='/sd.github.io/bit-by-bit-pics/ACL_2.png'
+          alt='Picture of a simulated patient within Nursing VR'
+          width={250}
+          height={250}
         />
       </p>
-      <div>
-        <h2>Problem:</h2>
-        <p>
-          Ever since the pandemic hit in 2020, training for real life situations
-          has been difficult and sometimes dangerous. This is true for a number
-          of professions, but nursing deals with close contact between the
-          patient and nurse, which can lead to possible transmission of disease.
-        </p>
 
+      <br></br>
+      <h2>Problem</h2>
+      <div style={{textAlign: `justify`}}>
         <p>
-          Most student nurses practice examinations on other students. However,
-          most students do not exhibit signs of illness or stress, and so
-          students do not get to learn a wide range of symptoms like they
-          should.
-        </p>
-
-        <p>
-          We are going to solve both of these issues by allowing nurses to train
-          and practice through the use of VR. These simulations will keep
-          students safe by giving them the experience of learning what symptoms
-          are linked to what illnesses, without the risk of catching those
-          illnesses.
+        There are nursing students who do not have effective patient subjects to practice
+        their diagnosing techniques and their assessments on. The availability, wellness, consent, and diversity
+        of a person are some factors to consider when looking for an ideal patient subject.
+        There are health risks to consider when physically assessing others in such close proximity.
+        For instructors teaching courses on nursing, test proctoring and giving feedback 
+        to students can be very time-consuming and strenuous for both the students and teachers.
         </p>
       </div>
-      <div>
-        <h2>Project Idea:</h2>
+
+      <br></br>
+      <h2>Project Idea</h2>
+      <div style={{textAlign: `justify`}}>  
         <p>
-          {' '}
-          We are going to continue the Computer Science and Nursing Project from
-          last year. Continuing to add features to the check up simulation, we
-          will need to work with Unity, C#, and also add in 3D modeling and
-          sound effects. The project will be accessible via a VR headset (tested
-          on a Quest 2).
+        Nursing VR will provide nursing students a safe and effective way to 
+        practice their diagnosing skills within a virtual environment. 
+        The product allows students to practice medical examinations
+        (provided by CSUN Nursing Department) 
+        which have been implemented into the program. 
+        The user will be able to interact within a 3D virtual space along 
+        with a simulated patient, medical tools, and other assets that nursing 
+        students would have access to in a real-life medical room setting.
+        Ideally, it would also provide an immersive experience that a nursing student 
+        would have when practicing on a live patient. Our project is intended to 
+        run on the Oculus/Meta Quest 2.
+        </p>
+        <p>
+        We will add new features to the existing project, using resources and feedback provided by the
+        CSUN Nursing Department. New features: an Instructor/Administrator Web Interface for
+        customizing the simulated patient and the Cardiovascular System Assessment Exam.
+        For development, we will be applying and using Unity, C#, 3D modeling, and animation.
+        The program runs using a VR device (tested to be compatible with a Meta/Oculus Quest 2).
         </p>
       </div>
     </div>
