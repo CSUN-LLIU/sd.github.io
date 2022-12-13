@@ -58,7 +58,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="bg-secondary p-5">
+      <section className="bg-secondary p-5 lead">
         <h1>Summary of Requirements</h1>
         <p>
           - Understanding how CSUN currently keeps track of the number of cars
