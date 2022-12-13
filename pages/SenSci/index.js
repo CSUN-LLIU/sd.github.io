@@ -10,13 +10,7 @@ const HomePage = () => {
           Parking At CSUN <span className="text-warning">Made Easy</span>
         </h1>
         <div className="lead d-flex flex-column text-center">
-          <div className="">Website:</div>
-          <a href="https://lucent-douhua-90f874.netlify.app/">
-            https://lucent-douhua-90f874.netlify.app/
-          </a>
-          <a href="https://github.com/Auraxium/MataPark">
-            https://github.com/Auraxium/MataPark
-          </a>
+          <div className="">Parking at CSUN optimized for your convenience.</div>
         </div>
       </div>
       <Image
