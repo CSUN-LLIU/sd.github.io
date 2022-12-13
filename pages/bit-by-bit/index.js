@@ -1,18 +1,27 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../../styles/bit-by-bit/styles.module.css'
+
 const HomePage = () => {
   return (
     <div className={styles.container} style={{textAlign: `center`}} >
       <h1>Nursing VR</h1> 
       <p>
         <Image className={styles.header} style={{textAlign: `center`}}
-          src='/sd.github.io/bit-by-bit-pics/unknown2.png'
+          src='/sd.github.io/bit-by-bit-pics/ACL_1.png'
           alt='Picture of a simulated patient within Nursing VR'
-          width={200}
-          height={200}
+          width={250}
+          height={250}
+        />
+
+        <Image className={styles.header} style={{textAlign: `center`}}
+          src='/sd.github.io/bit-by-bit-pics/ACL_2.png'
+          alt='Picture of a simulated patient within Nursing VR'
+          width={250}
+          height={250}
         />
       </p>
+
       <br></br>
       <h2>Problem</h2>
       <div style={{textAlign: `justify`}}>

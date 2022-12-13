@@ -1,5 +1,7 @@
 import React from 'react'
+import Image from 'next/image'
 import styles from '../../styles/bit-by-bit/styles.module.css'
+
 
 const ProjectArtifacts = () => {
   /*
@@ -17,8 +19,40 @@ const ProjectArtifacts = () => {
     <div className={styles.container} style={{textAlign: `center`}}>
       <br></br>
       <h1>Project Artifacts</h1>
+
       <div>
-          <h2>Prototype Design</h2>
+      <br></br>
+        <h2>Progress</h2>
+        <Image className={styles.header}
+          src='/sd.github.io/bit-by-bit-pics/5_Landmarks.png'
+          alt='Picture of intercostal spaces'
+          width={200}
+          height={200}
+        />
+
+          <Image className={styles.header}
+          src='/sd.github.io/bit-by-bit-pics/ACL_Landmarks.png'
+          alt='Picture of a simulated patient chest landmarks outlined'
+          width={200}
+          height={200}
+        />
+      </div>
+
+      <div>
+        <Image className={styles.header}
+          src='/sd.github.io/bit-by-bit-pics/Main_Menu.png'
+          alt='Picture of "main menu" user interface'
+          width={200}
+          height={200}
+        />
+      <p>
+      <Image className={styles.header}
+          src='/sd.github.io/bit-by-bit-pics/Website_Demo.png'
+          alt='Picture of website interface'
+          width={500}
+          height={300}
+        />
+      </p>
       </div>
 
       <div>
@@ -40,16 +74,8 @@ const ProjectArtifacts = () => {
           </a>
         </u>
       </div>
-
-      <div>
-      <br></br>
-        <h2> Posters </h2>
-      </div>
       
-      <div>
-      <br></br>
-        <h2>Videos</h2>
-      </div>
+      
     </div>
   ) 
 
