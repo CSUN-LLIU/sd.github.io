@@ -4,7 +4,7 @@ import styles from '../../styles/NavBar.module.css'
 import PopUp from './PopUp'
 
 const GROUP_LINKS = [
-  { id: 1, name: 'Caffeine Addicts', link: 'caffeine-addicts' },
+  { id: 1, name: 'Dynamic Paths', link: 'dynamic-paths' },
   { id: 2, name: 'Project T', link: 'project-t' },
   { id: 3, name: 'Gryffindor', link: 'gryffindor' },
   { id: 4, name: 'Bit by Bit', link: 'bit-by-bit' },

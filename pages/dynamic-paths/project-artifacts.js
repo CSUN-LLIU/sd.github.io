@@ -60,6 +60,16 @@ const ProjectArtifacts = () => {
           </Link>
         </p>
       </div>
+      <br />
+      <div>
+        <h1>Source Code</h1>
+        <p>
+          Our source code can be found
+          <Link href='https://github.com/GJONJ-Auto/senior-design'>
+            <strong style={{ cursor: 'pointer' }}> here</strong>
+          </Link>
+        </p>
+      </div>
     </div>
   )
 }
