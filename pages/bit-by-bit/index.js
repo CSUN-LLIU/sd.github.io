@@ -5,7 +5,22 @@ import styles from '../../styles/bit-by-bit/styles.module.css'
 const HomePage = () => {
   return (
     <div className={styles.container} style={{textAlign: `center`}} >
-      <h1>Nursing VR</h1> 
+      <h1>Nursing Virtual Reality</h1> 
+
+      
+      <p>See our updated team website:
+        <br></br>
+        <u>
+          <a href='https://main.d36l2ljv1p175f.amplifyapp.com/'>
+           https://main.d36l2ljv1p175f.amplifyapp.com/
+          </a>
+        </u>
+      </p>
+
+      <br></br>
+      <hr></hr>
+      <br></br>
+
       <p>
         <Image className={styles.header} style={{textAlign: `center`}}
           src='/sd.github.io/bit-by-bit-pics/ACL_1.png'
@@ -23,6 +38,9 @@ const HomePage = () => {
       </p>
 
       <br></br>
+      <hr></hr>
+      <br></br>
+
       <h2>Problem</h2>
       <div style={{textAlign: `justify`}}>
         <p>
@@ -34,6 +52,12 @@ const HomePage = () => {
         to students can be very time-consuming and strenuous for both the students and teachers.
         </p>
       </div>
+
+
+      <br></br>
+      <hr></hr>
+      <br></br>
+
 
       <br></br>
       <h2>Project Idea</h2>
