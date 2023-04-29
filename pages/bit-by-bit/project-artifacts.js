@@ -20,9 +20,11 @@ const ProjectArtifacts = () => {
       <br></br>
       <h1>Project Artifacts</h1>
 
+      <hr></hr>
+
       <div>
       <br></br>
-        <h2>Progress</h2>
+        <h2>Progress of Fall 2022</h2>
         <Image className={styles.header}
           src='/sd.github.io/bit-by-bit-pics/5_Landmarks.png'
           alt='Picture of intercostal spaces'
@@ -54,6 +56,10 @@ const ProjectArtifacts = () => {
         />
       </p>
       </div>
+
+      <br></br>
+      <hr></hr>
+      <br></br>
 
       <div>
         <br></br>

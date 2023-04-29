@@ -6,12 +6,16 @@ const TeamMembers = () => {
   return (
     <div className={styles.container} style={{textAlign: `center`}}>
       <h2>Team Members</h2>
+
+      <hr></hr>
+      <br></br>
+
       <div>
         <Image
-          src='/sd.github.io/bit-by-bit-pics/sailor_jupiter_winking_by_noah65478_de019qv-pre.jpg'
-          alt='random girl lol'
-          width={200}
-          height={150}
+          src='/sd.github.io/bit-by-bit-pics/Screenshot 2023 (Miranda).png'
+          alt='Portrait picture of Miranda Medina'
+          width={175}
+          height={200}
           priority
         />
         <br></br>
@@ -22,12 +26,16 @@ const TeamMembers = () => {
         </p>
       </div>
 
+      <br></br>
+      <hr></hr>
+      <br></br>
+
       <div className={styles.img_gap}>
         <Image
-          src='/sd.github.io/bit-by-bit-pics/IMG_0196.JPG'
-          alt='Jerry the guinea pig'
-          width={150}
-          height={150}
+          src='/sd.github.io/bit-by-bit-pics/Screenshot 2023 (Lucas).png'
+          alt='Portrait picture of Lucas Troutman'
+          width={175}
+          height={200}
         />
         <br></br>
         <p>
@@ -37,12 +45,16 @@ const TeamMembers = () => {
         </p>
       </div>
 
+      <br></br>
+      <hr></hr>
+      <br></br>
+
       <div>
         <Image
-          src='/sd.github.io/bit-by-bit-pics/9128029.png'
-          alt='not actually an accurate picture'
-          width={150}
-          height={275}
+          src='/sd.github.io/bit-by-bit-pics/Screenshot 2023 (Gino).png'
+          alt='Portrait picture of Gino Vitug'
+          width={175}
+          height={200}
         />
         <br></br>
         <p>
@@ -52,12 +64,16 @@ const TeamMembers = () => {
           music, memes, video games, and mechanical keyboards.</p>
       </div>
 
+      <br></br>
+      <hr></hr>
+      <br></br>
+
       <div className={styles.img_gap}>
         <Image
-          src='/sd.github.io/bit-by-bit-pics/beefa86f25c09019ca1784de1f63a708.jpg'
-          alt='bird wearing reindeer antlers'
-          width={200}
-          height={150}
+          src='/sd.github.io/bit-by-bit-pics/Screenshot 2023 (Kathleen).png'
+          alt='Portrait picture of Kathleen Navarro'
+          width={175}
+          height={200}
         />
         <br></br>
         <p>
@@ -69,11 +85,15 @@ const TeamMembers = () => {
         </p>
       </div>
 
+      <br></br>
+      <hr></hr>
+      <br></br>
+
       <div className={styles.img_gap}>
         <Image
-          src='/sd.github.io/bit-by-bit-pics/unknown.png'
+          src='/sd.github.io/bit-by-bit-pics/Screenshot 2023 (Murssal).png'
           alt='rumi'
-          width={150}
+          width={175}
           height={200}
           priority
         />
@@ -84,6 +104,11 @@ const TeamMembers = () => {
           Computer Science student with an interest in games, art, and cats.
         </p>
       </div>
+
+      <br></br>
+      <hr></hr>
+      <br></br>
+
     </div>
   )
 }
