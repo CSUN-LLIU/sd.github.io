@@ -5,8 +5,7 @@
 
 .container {
     border-style: solid;
-    border-color: black;
-    border-radius: 12px;
+    border-color: #D22030;
     background-color: #D22030;
     position: fixed;
     top: 0;
