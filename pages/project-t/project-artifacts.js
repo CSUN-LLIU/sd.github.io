@@ -29,8 +29,8 @@ const ProjectArtifacts = () => {
     <Image 
       src='/sd.github.io/project-t-pics/swiftcheckposter.png'
       alt='swiftcheck poster'
-      width={300}
-      height={500}
+      width={auto}
+      height={auto}
     />
     <h2>Videos</h2> 
   </div>
