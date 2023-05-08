@@ -33,7 +33,7 @@ const HomePage = () => {
     </p>
     <h2>The Problem</h2>
     <p>
-    &emsp;Too often games come out with complex tasks that seem obscure to the player. Our Venus Hint system, assisted by machine learning techniques, <br></br>
+    Too often games come out with complex tasks that seem obscure to the player. Our Venus Hint system, assisted by machine learning techniques, <br></br>
     is specifically designed to alleviate gamer’s frustrations caused by the complexity of the puzzle game. Our goal is to provide assistance to gamers <br></br>
     during gameplay, while also respecting their preferences by allowing them to disable the hint system. We want Venus to give value to the player by allowing them<br></br>
     a way to play the game without unnecessary frustration. Venus will help with that undue stress. This will give a sense of satisfaction when the player completes the game.<br></br>
@@ -42,7 +42,7 @@ const HomePage = () => {
     <h2>Thinking outside the box</h2>
     
     <p>
-    &emsp;Our proposed solution for this problem is to create an AI helper called Venus that can anticipate the player's frsutration and read their current progress.<br></br>
+    Our proposed solution for this problem is to create an AI helper called Venus that can anticipate the player's frsutration and read their current progress.<br></br>
     The proof of concept would take this AI helper and apply it to a confusing browser based game called <strong><a herf="https://the-house.arturkot.pl/"> The House </a></strong>by Arthur Kot<br></br>
     As the game is browser based we will have to implement a way to a way to analyze player's moveents, game state, and generate hints.<br></br>
     
@@ -61,6 +61,23 @@ const HomePage = () => {
       <br></br>
       * Data created by the solution would be created just in time, nothing is saved *<br></br>
       &emsp;&emsp;- User data in this modern era is tantamount to gold, keeping it temporarily is our goal.<br></br>
+    </p>
+
+    <h4>Venus methods</h4>
+    <p>
+       * Venus collects data from the player’s mouse movement; the number of clicks and a historical array of calculated mouse accelerations.<br></br>
+      <br></br>
+      * In the event that the number of attempted clicks surpasses the established threshold, or there’s a high differentiation between the <br></br>
+      current acceleration and its historical data, it would trigger the system to prompt if the user requires assistance. The player either <br></br>
+      responds “Yes” or “No”, and resets the clicking counter to zero upon choosing. <br></br>
+      <br></br>
+      * If “Yes”, Venus reads from the game storage to analyze the player’s progress with the game. This includes the items the player has collected,<br></br>
+      items that have been used, and checkpoints that they’ve already achieved.<br></br>
+      <br></br>
+      * Venus makes list of the ‘target’ coordinates from the original source code so as to development a linear outline of the game overall pathline. <br></br>
+      <br></br>
+      * Then, Venus will compare the player’s current progress with the remaining uncompleted game objectives and signal to the player whether <br></br>
+      they are close - hot - or far - cold - from the next ‘target’ based on the player’s position in the tile-based game. <br></br>
     </p>
     
     </div>
