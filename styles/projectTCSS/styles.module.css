@@ -1,0 +1,19 @@
+.container{
+    margin: 50px;
+    text-align: center;
+}
+
+.image{
+    float: left;
+    margin: 10px;
+    box-shadow: -1px -1px 20px;
+}
+
+.paragraph{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.header{
+    text-align: center;
+}

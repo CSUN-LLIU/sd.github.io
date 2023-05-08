@@ -4,11 +4,11 @@ import styles from '../../styles/NavBar.module.css'
 import PopUp from './PopUp'
 
 const GROUP_LINKS = [
-  { id: 1, name: 'Caffeine Addicts', link: 'caffeine-addicts' },
-  { id: 2, name: 'Group 2', link: 'group-2' },
-  { id: 3, name: 'Group 3', link: 'group-3' },
-  { id: 4, name: 'Group 4', link: 'group-4' },
-  { id: 5, name: 'Group 5', link: 'group-5' },
+  { id: 1, name: 'Dynamic Paths', link: 'dynamic-paths' },
+  { id: 2, name: 'SwiftCheck', link: 'project-t' },
+  { id: 3, name: 'Gryffindor', link: 'gryffindor' },
+  { id: 4, name: 'Bit by Bit', link: 'bit-by-bit' },
+  { id: 5, name: 'SenSci', link: 'SenSci' },
 ]
 
 const NavBar = ({ children }) => {
@@ -22,12 +22,13 @@ const NavBar = ({ children }) => {
       <div className={styles.container} ref={navHeight}>
         <div className={styles.display}>
           {GROUP_LINKS.map((each) => (
-            <div
-              key={each.id}
-              style={{ display: 'flex', alignItems: 'center' }}>
-              <Link href={`/${each.link}`}>
-                <div className={styles.anchor}>{each.name}</div>
-              </Link>
+            <div key={each.id} className={styles.link_hover}>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
+                <Link href={`/${each.link}`}>
+                  <div className={styles.anchor}>{each.name}</div>
+                </Link>
+                <div className={styles.arrow} />
+              </div>
               <PopUp primaryLink={each.link} />
             </div>
           ))}

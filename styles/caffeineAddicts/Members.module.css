@@ -1,0 +1,39 @@
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgba(210, 32, 48);
+    border-top: 1px solid rgba(210, 32, 48);
+    border-bottom-right-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-top-left-radius: 3em;
+    border-top-width: 9px;
+    border-bottom-width: 2px;
+    margin-top: 1em;
+    max-width: 75%;
+    padding: 10px
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    border-radius: 20%;
+}
+
+.info{
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+}
