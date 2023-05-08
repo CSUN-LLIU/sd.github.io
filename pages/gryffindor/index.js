@@ -12,35 +12,32 @@ const HomePage = () => {
         height='250px'
         width='200px'
         border='5px'
-        justify-content = 'center'
       />
       </div>
-      <h1>Say Hello to Venus <br></br>
+    <h1>Say Hello to Venus <br></br>
     <font size="5">
     <i>A proposed solution to confusing game tactics</i>
     </font>
       
     </h1>
-    <p>
-      
-      
+    <p>     
       When playing a video game, there's often a sense of thrill when players are out exploring in the digital frontier. However there are moments in games where <br></br>
       one is often left confused on what to do. Usually these confused moments are met with hints and guides to get a player out of that situation. That is, if it’s <br></br>
-      added to the game. New video games such as Scorn offer visually fantastic games but they leave the player wondering what exactly is going on. There is no built-in sense<br></br>
-      of what to do and if the player does manage to figure something out, they wind up frustrated at it having taken so long. What we aim to do is create a virtual <br></br>
-      helper that will calm down those moments of confused panic. The helper, Venus won’t play the game but will be a vigilant sentinel ready at a moments notice to <br></br>
-      leap in and see what the player needs help with gamewise. <br></br>
+      added to the game. New video games such as Scorn offer visually fantastic games but they leave the player wondering what exactly is going on. There is no <br></br>
+      built-in sense of what to do and if the player does manage to figure something out, they wind up frustrated at it having taken so long. What we aim to do is <br></br> 
+      create a virtual helper that will calm down those moments of confused panic. The helper, Venus won’t play the game but will be a vigilant sentinel ready at a <br></br>
+      moments notice to leap in and see what the player needs help with gamewise. <br></br>
     </p>
     <h2>The Problem</h2>
     <p>
     Too often games come out with complex tasks that seem obscure to the player. Our Venus Hint system, assisted by machine learning techniques, <br></br>
     is specifically designed to alleviate gamer’s frustrations caused by the complexity of the puzzle game. Our goal is to provide assistance to gamers <br></br>
-    during gameplay, while also respecting their preferences by allowing them to disable the hint system. We want Venus to give value to the player by allowing them<br></br>
-    a way to play the game without unnecessary frustration. Venus will help with that undue stress. This will give a sense of satisfaction when the player completes the game.<br></br>
-
+    during gameplay, while also respecting their preferences by allowing them to disable the hint system. We want Venus to give value to the player by <br></br>
+    allowing them a way to play the game without unnecessary frustration. Venus will help with that undue stress. This will give a sense of satisfaction <br></br>
+    when the player completes the game.<br></br>
     </p>
+
     <h2>Thinking outside the box</h2>
-    
     <p>
     Our proposed solution for this problem is to create an AI helper called Venus that can anticipate the player's frsutration and read their current progress.<br></br>
     The proof of concept would take this AI helper and apply it to a confusing browser based game called <strong><a herf="https://the-house.arturkot.pl/"> The House </a></strong>by Arthur Kot<br></br>
@@ -79,7 +76,19 @@ const HomePage = () => {
       * Then, Venus will compare the player’s current progress with the remaining uncompleted game objectives and signal to the player whether <br></br>
       they are close - hot - or far - cold - from the next ‘target’ based on the player’s position in the tile-based game. <br></br>
     </p>
-    
+    <center>
+      <img src="/sd.github.io/gryffindorpics/CodeSample.jpg" width="500" height="300"></img>
+      <font size="2">
+        <figcaption><i>Sample mouse acceleration calculation function code</i></figcaption>
+        <br></br>
+      </font>
+    </center>
+    <center>
+      <img src="/sd.github.io/gryffindorpics/ConsoleSample.jpg" width="600" height="300"></img>
+      <font size="2">
+        <figcaption><i>Real-time Venus mouse calculations, frustration prediction, and hint sample</i></figcaption>
+      </font>
+    </center>
     </div>
 }
 
