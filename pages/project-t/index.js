@@ -56,14 +56,26 @@ const HomePage = () => {
       <li> Patient Report</li>
       <div style={{position: `center`}}>
         <Image
-          src='/sd.github.io/project-t-pics/male.png'
-          alt='male body'
+          src='/sd.github.io/project-t-pics/intro.png'
+          alt='intro'
           width={250}
           height={300}
         />
         <Image
-          src='/sd.github.io/project-t-pics/female.png'
-          alt='female body'
+          src='/sd.github.io/project-t-pics/screenshot1.png'
+          alt='body'
+          width={250}
+          height={300}
+        />
+        <Image
+          src='/sd.github.io/project-t-pics/screenshot2.png'
+          alt='body comp'
+          width={250}
+          height={300}
+        />
+        <Image
+          src='/sd.github.io/project-t-pics/screenshot4.png'
+          alt='body comp bar'
           width={250}
           height={300}
         />
