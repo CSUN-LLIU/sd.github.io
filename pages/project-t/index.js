@@ -58,26 +58,26 @@ const HomePage = () => {
         <Image
           src='/sd.github.io/project-t-pics/intro.png'
           alt='intro'
-          width={250}
-          height={300}
+          width={450}
+          height={400}
         />
         <Image
           src='/sd.github.io/project-t-pics/screenshot1.png'
           alt='body'
           width={250}
-          height={300}
+          height={400}
         />
         <Image
           src='/sd.github.io/project-t-pics/screenshot2.png'
           alt='body comp'
           width={250}
-          height={300}
+          height={400}
         />
         <Image
           src='/sd.github.io/project-t-pics/screenshot4.png'
           alt='body comp bar'
-          width={250}
-          height={300}
+          width={450}
+          height={400}
         />
       </div> 
     </div>
