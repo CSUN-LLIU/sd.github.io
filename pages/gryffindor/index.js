@@ -1,9 +1,21 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.css'
+import Image from 'next/image'
 
 const HomePage = () => {
   return <div>
-    <h1>Welcome to Team Gryffindor!</h1>
-    <h1>Say Hello to Venus <br></br>
+    <div className="d-flex flex-column justify-content-center align-items-center">
+      <h1>Welcome to Team Gryffindor!</h1>
+      <Image
+        src='/sd.github.io/gryffindorpics/Venuslogo.jpg'
+        display = 'flex'
+        height='250px'
+        width='200px'
+        border='5px'
+        justify-content = 'center'
+      />
+      </div>
+      <h1>Say Hello to Venus <br></br>
     <font size="5">
     <i>A proposed solution to confusing game tactics</i>
     </font>
