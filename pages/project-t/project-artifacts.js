@@ -26,6 +26,12 @@ const ProjectArtifacts = () => {
       </p>
     <h2>Final Project Report</h2> 
     <h2>Posters</h2> 
+    <Image 
+      src='/sd.github.io/project-t-pics/swiftcheckposter.png'
+      alt='swiftcheck poster'
+      width={1000}
+      height={650}
+    />
     <h2>Videos</h2> 
   </div>
   )
