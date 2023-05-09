@@ -1,6 +1,5 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
-import Image from 'next/image'
 
 const ProjectArtifacts = () => {
   return <div>
