@@ -32,15 +32,16 @@ const TeamMembers = () => {
 
         <div className='col'>
           <div className='card h-100'>
-            <Image
-              src='/sd.github.io/gryffindorpics/mymelody.jpg'
-              height='350px'
-              width='250px'
-              border='5px'
-              className='mb-3'
-              alt='My Melody'
-            />
-            <center><h5 className='card-title'>Angelina Nantanapramoth</h5></center>
+            <center>
+              <Image
+                src='/sd.github.io/gryffindorpics/Angelina.jpg'
+                height='300px'
+                width='250px'
+                border='5px'
+                className='mb-3'
+              />
+              <h5 className='card-title'>Angelina Nantanapramoth</h5>
+            </center>
             <p className='card-text'>
               {`      I have experience with GUI, Unity, Java, C#, C, and R. My interest CS is in regards to the development of communication and also game development. 
       Nevertheless, I am not adverse to trying new things and gaining new skills.`}
@@ -50,15 +51,16 @@ const TeamMembers = () => {
 
         <div className='col'>
           <div className='card h-100'>
-            <Image
-              src='/sd.github.io/gryffindorpics/pochacco.jpg'
-              height='350px'
-              width='250px'
-              border='5px'
-              className='mb-3'
-              alt='Pochacco'
-            />
-            <center><h5 className='card-title'>Kathareeya Atthajaroon</h5></center>
+            <center>
+              <Image
+                src='/sd.github.io/gryffindorpics/Kathy.jpg'
+                height='300px'
+                width='250px'
+                border='2px'
+                className='mb-3'
+              />
+              <h5 className='card-title'>Kathareeya Atthajaroon</h5>
+            </center>
             <p className='card-text'>
               {`Greetings! I am Kathy, it is nice to meet everyone of you.
        I have experienced with UI/UX designs, Java/script, C,C++, NODE JS, basics of python, and MYSQL database.
