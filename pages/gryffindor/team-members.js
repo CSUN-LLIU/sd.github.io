@@ -10,16 +10,18 @@ const TeamMembers = () => {
 
       <div className='row row-cols-1 row-cols-md-3 g-4'>
         <div className='col'>
-          <div className='card h-100'>
-            <Image
-              src='/sd.github.io/gryffindorpics/cinnamoroll.jpg'
-              height='350px'
-              width='250px'
-              border='5px'
-              className='mb-3'
-              alt=''
-            />
-            <center><h5 className='card-title'>Jazlyn Fernandez</h5></center>
+        <div className='card h-100'>
+          <center>
+              <Image
+                src='/sd.github.io/gryffindorpics/cinnamoroll.jpg'
+                height='200px'
+                width='150px'
+                border='5px'
+                className='mb-3'
+                alt=''
+              />
+              <h5 className='card-title'>Jazlyn Fernandez</h5>
+            </center>
             <p className='card-text'>
               Hello I am Jazlyn, a Senior at CSUN, hoping to graduate in Spring
               2023. I have experience in mostly Java and some experience with C,
@@ -35,8 +37,8 @@ const TeamMembers = () => {
             <center>
               <Image
                 src='/sd.github.io/gryffindorpics/Angelina.jpg'
-                height='300px'
-                width='250px'
+                height='200px'
+                width='150px'
                 border='5px'
                 className='mb-3'
               />
@@ -54,8 +56,8 @@ const TeamMembers = () => {
             <center>
               <Image
                 src='/sd.github.io/gryffindorpics/Kathy.jpg'
-                height='300px'
-                width='250px'
+                height='200px'
+                width='150px'
                 border='2px'
                 className='mb-3'
               />
@@ -72,15 +74,17 @@ const TeamMembers = () => {
 
         <div className='col'>
           <div className='card h-100'>
-            <Image
-              src='/sd.github.io/gryffindorpics/keroppi.jpg'
-              height='350px'
-              width='250px'
-              border='5px'
-              className='mb-3'
-              alt='Keropi'
-            />
-            <center><h5 className='card-title'>Daniel Esquivel</h5></center>
+          <center>
+              <Image
+                src='/sd.github.io/gryffindorpics/keroppi.jpg'
+                height='200px'
+                width='150px'
+                border='5px'
+                className='mb-3'
+                alt='Keropi'
+              />
+              <h5 className='card-title'>Daniel Esquivel</h5>
+            </center>
             <p className='card-text'>
               {`Outside of className I enjoy hanging out with friends and learning new skills like drawing. 
         I have experience using Java, C, and Swift, but I am always willing to learn new languages like Python or C++.`}
@@ -97,7 +101,7 @@ const TeamMembers = () => {
                 border='5px'
                 className='mb-3'
               />
-              <center><h5 className='card-title'>Juan Vazquez</h5></center>
+              <h5 className='card-title'>Juan Vazquez</h5>
             </center>
             <p className='card-text'>
               {`I have experience with Java, C++, C. I'm interested in specializing in graphics programming. 
@@ -107,15 +111,17 @@ const TeamMembers = () => {
         </div>
         <div className='col'>
           <div className='card h-100'>
-            <Image
-              src='/sd.github.io/gryffindorpics/pompom.jpeg'
-              height='350px'
-              width='250px'
-              border='5px'
-              className='mb-3'
-              alt='Badtz Maru'
-            />
-            <center><h5 className='card-title'>Erick Bravo</h5></center>
+            <center>
+              <Image
+                src='/sd.github.io/gryffindorpics/pompom.jpeg'
+                height='200px'
+                width='150px'
+                border='5px'
+                className='mb-3'
+                alt='Badtz Maru'
+              />
+              <h5 className='card-title'>Erick Bravo</h5>
+            </center>
             <p className='card-text'>
               {`      Hello I am Erick, Ill be graduating in Spring 2023 if all goes well
         I have the following experiance with C++, Java, Golang, C, Databases. Im currently intrested in imagry and robotics.
