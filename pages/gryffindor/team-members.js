@@ -41,6 +41,7 @@ const TeamMembers = () => {
                 width='150px'
                 border='5px'
                 className='mb-3'
+                alt='Angelina'
               />
               <h5 className='card-title'>Angelina Nantanapramoth</h5>
             </center>
@@ -60,6 +61,7 @@ const TeamMembers = () => {
                 width='150px'
                 border='2px'
                 className='mb-3'
+                alt='Kathy'
               />
               <h5 className='card-title'>Kathareeya Atthajaroon</h5>
             </center>
@@ -100,6 +102,7 @@ const TeamMembers = () => {
                 width='150px'
                 border='5px'
                 className='mb-3'
+                alt='JP'
               />
               <h5 className='card-title'>Juan Vazquez</h5>
             </center>
@@ -113,19 +116,19 @@ const TeamMembers = () => {
           <div className='card h-100'>
             <center>
               <Image
-                src='/sd.github.io/gryffindorpics/pompom.jpeg'
+                src='/sd.github.io/gryffindorpics/Erick.jpg'
                 height='200px'
                 width='150px'
                 border='5px'
                 className='mb-3'
-                alt='Badtz Maru'
+                alt='Erick'
               />
               <h5 className='card-title'>Erick Bravo</h5>
             </center>
             <p className='card-text'>
-              {`      Hello I am Erick, Ill be graduating in Spring 2023 if all goes well
-        I have the following experiance with C++, Java, Golang, C, Databases. Im currently intrested in imagry and robotics.
-        Always willing to lend a hand with anything and everything as long as we all learn from it.`}
+              {`Hallo! As Im intrested in computer vision and embedded aplications related to aerospace, 
+              Ive started to delve and gain experiance in C/C++, Python, Golang and Javascript. 
+              Some of my hobbies include outdoor photography, swimming and reading novels.  `}
             </p>
           </div>
         </div>
