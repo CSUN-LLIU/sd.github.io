@@ -6,7 +6,7 @@ const TeamMembers = () => {
   return (
     <div>
       <center><h1>Team Gryffindor</h1></center>
-      
+
 
       <div className='row row-cols-1 row-cols-md-3 g-4'>
         <div className='col'>
@@ -87,24 +87,24 @@ const TeamMembers = () => {
             </p>
           </div>
         </div>
-
         <div className='col'>
           <div className='card h-100'>
-            <Image
-              src='/sd.github.io/gryffindorpics/badtzmaru.jpeg'
-              height='350px'
-              width='250px'
-              border='5px'
-              className='mb-3'
-              alt='Badtz Maru'
-            />
-            <center><h5 className='card-title'>Juan Vazquez</h5></center>
+            <center>
+              <Image
+                src='/sd.github.io/gryffindorpics/JP.jpg'
+                height='200px'
+                width='150px'
+                border='5px'
+                className='mb-3'
+              />
+              <center><h5 className='card-title'>Juan Vazquez</h5></center>
+            </center>
             <p className='card-text'>
-              {`Experience with Java, C++, C. Excited to work on any type of software development especially game design.`}
+              {`I have experience with Java, C++, C. I'm interested in specializing in graphics programming. 
+              As for hobbies, I enjoy playing video games and playing guitar.`}
             </p>
           </div>
         </div>
-
         <div className='col'>
           <div className='card h-100'>
             <Image
