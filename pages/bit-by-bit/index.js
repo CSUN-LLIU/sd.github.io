@@ -31,6 +31,29 @@ const HomePage = () => {
       <hr></hr>
       <br></br>
 
+      
+      <h2>Abstract</h2>
+      <div style={{textAlign: `justify`}} class={'indent'}>
+        <p style={{textIndent: '5em'}}>
+        Nursing Virtual Reality allows students to conduct
+        human cardiovascular and respiratory assessments in a virtual environment.
+        The user will be able to interact with a simulated patient, stethoscope clipboard menu,
+        and other assets that nursing students would have access to in a real-life medical room setting.
+        Our project was built in Unity and is intended to run on the Oculus/Meta Quest 2. Because the program
+        is built on the feedback and sources provided by the CSUN Nursing Department, it focuses on allowing
+        CSUN nursing students to apply what they have learned, or are currently learning, from the course curriculum.
+        Additionally, the program provides a feature which allows users to answer a performance checklist while using
+        the program. This performance checklist prompts the user to record their deductions and findings when diagnosing
+        the simulated patient. This same checklist can be submitted by the user to receive feedback on whether their
+        findings about the patient were accurate. Nursing VR can be improved by additional features including more
+        examinations focusing on different body systems, and an aspiring feature such as one that allows the user
+        to give vocal commands and questions to the simulated patient.</p>
+      </div>
+
+      <br></br>
+      <hr></hr>
+      <br></br>
+
       <h2>Problem</h2>
       <div style={{textAlign: `justify`}} class={'indent'}>
         <p style={{textIndent: '5em'}}>
@@ -50,7 +73,7 @@ const HomePage = () => {
       <br></br>
 
 
-      <h2>Project Idea</h2>
+      <h2>Project Idea and Scope</h2>
       <div style={{textAlign: `justify`}}>  
         <p style={{textIndent: '5em'}}>
         Nursing VR will provide nursing students a safe and effective way to 

@@ -72,6 +72,7 @@ const ProjectArtifacts = () => {
         <p>
           <img src={"https://i.imgur.com/zg4HtuR.png"} width="100%" height="100%" alt="Website interface of patient customization feature" />
         </p>
+        <a href="https://main.d36l2ljv1p175f.amplifyapp.com/"><u>Project Website: https://main.d36l2ljv1p175f.amplifyapp.com/</u></a>
       </div>
       
       
