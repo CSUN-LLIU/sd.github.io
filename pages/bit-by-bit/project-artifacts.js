@@ -27,7 +27,7 @@ const ProjectArtifacts = () => {
       <div>
         <br></br>
         <h3>2023 Nursing Virtual Reality Senior Design Poster</h3>
-        <img
+        <Image
           src={'https:i.imgur.com/8bJY5e4.png'}
           width='100%'
           height='100%'
@@ -39,7 +39,7 @@ const ProjectArtifacts = () => {
         <br></br>
         <br></br>
         <h3>Nursing Research Day Presentation</h3>
-        <img
+        <Image
           src={'https://i.imgur.com/ZXLWeF3.png'}
           width='100%'
           height='100%'
@@ -55,7 +55,7 @@ const ProjectArtifacts = () => {
         <br></br>
         <h4>User perspective of animations menu UI in NVR program</h4>
         <p>
-          <img
+          <Image
             src={'https://i.imgur.com/C9i1pBG.png'}
             width='60%'
             height='60%'
@@ -69,7 +69,7 @@ const ProjectArtifacts = () => {
         <br></br>
         <h4>User perspective of virtual patient laying down in NVR program</h4>
         <p>
-          <img
+          <Image
             src={'https://i.imgur.com/ljG0nLD.png'}
             width='60%'
             height='60%'
@@ -83,7 +83,7 @@ const ProjectArtifacts = () => {
         <br></br>
         Maya editor perspective of patient model
         <p>
-          <img
+          <Image
             src={'https://i.imgur.com/GGaZf2n.png'}
             width='80%'
             height='80%'
@@ -97,7 +97,7 @@ const ProjectArtifacts = () => {
         <br></br>
         <h4>A page from website interface of patient customization feature</h4>
         <p>
-          <img
+          <Image
             src={'https://i.imgur.com/zg4HtuR.png'}
             width='100%'
             height='100%'
