@@ -77,7 +77,7 @@ const TeamMembers = () => {
           <div className='card h-100'>
           <center>
               <Image
-                src='/sd.github.io/gryffindorpics/keroppi.jpg'
+                src='/sd.github.io/gryffindorpics/Danny.jpg'
                 height='200px'
                 width='150px'
                 border='5px'
