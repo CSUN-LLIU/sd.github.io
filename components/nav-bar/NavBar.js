@@ -7,7 +7,7 @@ const GROUP_LINKS = [
   { id: 1, name: 'Dynamic Paths', link: 'dynamic-paths' },
   { id: 2, name: 'SwiftCheck', link: 'project-t' },
   { id: 3, name: 'Venus', link: 'gryffindor' },
-  { id: 4, name: 'Nursing Virtual Reality', link: 'bit-by-bit' },
+  { id: 4, name: 'Bit by Bit', link: 'bit-by-bit' },
   { id: 5, name: 'SenSci', link: 'SenSci' },
 ]
 
