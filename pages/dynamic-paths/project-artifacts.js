@@ -19,21 +19,21 @@ const ProjectArtifacts = () => {
         <h1 style={{ textAlign: 'center' }}>Prototype Design</h1>
         <div className={styles.proImage}>
           <Image
-            src={'/sd.github.io/caffeinePics/pro1.jpg'}
+            src={'/sd.github.io/caffeinePics/image3.png'}
             alt='log in'
             width={400}
             height={250}
             style={{ marginRight: '5px' }}
           />
           <Image
-            src={'/sd.github.io/caffeinePics/pro2.jpg'}
+            src={'/sd.github.io/caffeinePics/image1.png'}
             alt='log in'
             width={400}
             height={250}
             style={{ marginRight: '5px' }}
           />
           <Image
-            src={'/sd.github.io/caffeinePics/pro3.jpg'}
+            src={'/sd.github.io/caffeinePics/image2.png'}
             alt='log in'
             width={400}
             height={250}
