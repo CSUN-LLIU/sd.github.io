@@ -55,7 +55,7 @@ const ProjectArtifacts = () => {
         <h1>Final Presentation</h1>
         <p>
           Our Final Presentation can be found
-          <Link href='https://docs.google.com/presentation/d/106iUJXpiPokc_-TT_D1JlzxalUhJfY3u8f9rTvRZibQ/edit?usp=sharing'>
+          <Link href='https://docs.google.com/presentation/d/1rCgACgdOuBQ6aeH_BHKz1SXUkBJXw5qEBCvAZ_PPxfk/edit?usp=sharing'>
             <strong style={{ cursor: 'pointer' }}> here</strong>
           </Link>
         </p>
