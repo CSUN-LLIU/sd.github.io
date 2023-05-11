@@ -13,7 +13,7 @@ const TeamMembers = () => {
         <div className='card h-100'>
           <center>
               <Image
-                src='/sd.github.io/gryffindorpics/cinnamoroll.jpg'
+                src='/sd.github.io/gryffindorpics/Jazlyn.jpg'
                 height='200px'
                 width='150px'
                 border='5px'
@@ -23,8 +23,7 @@ const TeamMembers = () => {
               <h5 className='card-title'>Jazlyn Fernandez</h5>
             </center>
             <p className='card-text'>
-              Hello I am Jazlyn, a Senior at CSUN, hoping to graduate in Spring
-              2023. I have experience in mostly Java and some experience with C,
+              I have experience in mostly Java, Python and some experience with C,
               C++. My interest in computer science is game developing and GUI
               design. But I am always open to learn more and improve my skills
               for this field.
