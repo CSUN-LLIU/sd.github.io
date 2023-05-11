@@ -92,6 +92,40 @@ const ProjectArtifacts = () => {
 			</section>
 
 			<section>
+				<h2> Final Design </h2>
+				<Image
+					src="/sd.github.io/SenSci/LaptopView.jpeg"
+					alt="Laptop View of Website"
+					width={300}
+					height={200}
+				/>
+				<Image
+					src="/sd.github.io/SenSci/TabletView.jpeg"
+					alt="Tablet View of Website"
+					width={200}
+					height={300}
+				/>
+				<Image
+					src="/sd.github.io/SenSci/PhoneView.jpeg"
+					alt="Phone View of Website"
+					width={200}
+					height={300}
+				/>
+				<Image
+					src="/sd.github.io/SenSci/FeedView.jpeg"
+					alt="Weather and Road Feed on Mobile"
+					width={200}
+					height={300}
+				/>
+				<Image
+					src="/sd.github.io/SenSci/Phone2View.jpeg"
+					alt="Another page on mobile"
+					width={200}
+					height={300}
+				/>
+			</section>
+
+			<section>
 				<h2> Senior Design Showcase Spring 2023 Poster</h2>
 				<Image
 					src="/sd.github.io/SenSci/MataparkFinalPoster.jpg"
