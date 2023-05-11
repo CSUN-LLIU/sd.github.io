@@ -7,7 +7,7 @@ const ProjectArtifacts = () => {
       <h2>Prototype Evolution</h2>
       <p>
       &emsp;&emsp;Our current implementation of Venus allows us to have it live in _something that is to be determined soon_<br></br>
-      &emsp;&emsp;This will be avalible at <strong><a href="www.placeholder.com"> this location. </a></strong> 
+      &emsp;&emsp;This will be avalible at <strong><a href="https://github.com/sopiloteh/490Gryffindor"> this location. </a></strong> 
       </p>
     <h2>Our Desired outcome</h2>
     <p>
@@ -17,17 +17,17 @@ const ProjectArtifacts = () => {
       <h2>Initial Presentation</h2>
       <p>
       &emsp;&emsp;For our initial presentation and overview of our senior design project.<br></br>
-      &emsp;&emsp;Please click here to take <strong><a href="https://docs.google.com/presentation/d/1nb9jVMWPHdwR6PGyTkKCZMONJ6CIx03sp8yXyCILbw8/edit#slide=id.g1f87997393_0_782"> a look. </a></strong>  
+      &emsp;&emsp;Please click here to take <strong><a href="/sd.github.io/gryffindorpics/VenusPresentation.pdf"> a look. </a></strong>  
       
       </p>
       <h2>Final Presentation</h2>
       <p>
       &emsp;&emsp;Thank you for wanting to know more about our project, <i>Venus, an AI helper for you</i><br></br>
-      &emsp;&emsp;Please feel free to take <strong><a href="www.placeholder.com"> a look. </a></strong>  
+      &emsp;&emsp;Please feel free to take <strong><a href="/sd.github.io/gryffindorpics/Group3-Venus.pdf"> a look. </a></strong>  
       </p>
       <h2>Final Project Report</h2>
       <p>
-      &emsp;&emsp;Our Senior design abstract can be found at this <strong><a href="https://docs.google.com/document/d/13BtkwMjXTlcZdQXhcbyrEDwiG8bnt6cJ/edit?usp=sharing&ouid=114663013419026877082&rtpof=true&sd=true"> following link. </a></strong>
+      &emsp;&emsp;Our Senior design abstract can be found at this <strong><a href="/sd.github.io/gryffindorpics/Gryffindor-SeniorDesignDoc.docx.pdf"> following link. </a></strong>
       </p>
       <h2>Acknoledgements</h2>
       <p>

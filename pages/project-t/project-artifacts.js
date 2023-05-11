@@ -19,14 +19,24 @@ const ProjectArtifacts = () => {
       </p>
     <h2>Final Presentation</h2> 
       <p>
-        <a href="https://docs.google.com/presentation/d/1GYLood-k2MBgN4XAr0ZsffVnG-FZhX3AQwGh5KS39as/edit#slide=id.gd9c453428_0_16" style={{color: `blue`}}>First Presentation</a>
+        <a target='_blank' href="https://docs.google.com/presentation/d/1GYLood-k2MBgN4XAr0ZsffVnG-FZhX3AQwGh5KS39as/edit#slide=id.gd9c453428_0_16" style={{color: `blue`}}>First Presentation</a>
       </p>
       <p>
-        <a href="https://docs.google.com/presentation/d/1PCAXZ6ytd8xfqXpC95_jV9_V3EZLn2LinT2YlrKz0X8/edit" style={{color: `blue`}}>Second Presentation</a>
+        <a target='_blank' href="https://docs.google.com/presentation/d/1PCAXZ6ytd8xfqXpC95_jV9_V3EZLn2LinT2YlrKz0X8/edit" style={{color: `blue`}}>Second Presentation</a>
+      </p>
+      <p>
+        <a target='_blank' href="https://docs.google.com/presentation/d/1StotcjyET8o7qdhg5VccdIhHNkIZ7cvXKxx0uCuNn9s/edit" style={{color: `blue`}}>Final Presentation</a>
       </p>
     <h2>Final Project Report</h2> 
     <h2>Posters</h2> 
+    <Image 
+      src='/sd.github.io/project-t-pics/swiftcheckposter.png'
+      alt='swiftcheck poster'
+      width={1000}
+      height={650}
+    />
     <h2>Videos</h2> 
+    <a target='_blank' href="https://www.youtube.com/watch?v=Aw6rP-cRC-0">Demo Video!</a>
   </div>
   )
 }
