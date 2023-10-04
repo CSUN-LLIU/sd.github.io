@@ -1,3 +1,23 @@
+import Image from "next/image"
+import anthony_img from "public/group-2/anthony_headshot.jpg"
+import artim_img from "public/group-2/artim_headshot.jpg"
+import felipe_img from "public/group-2/felipe_headshot.jpg"
+
 ## Team
 
-![](/library.jpg)
+![Front view of CSUN's library](/library.jpg)
+
+<div className="group-2-teams">
+    <div className="teammate">
+        <Image src={anthony_img} alt="Anthony Daulo's headshot picture" width={100} />
+        <p>Hello! I'm Anthony Daulo. I'm a CS Senior at CSUN who transferred from Pierce College. I'm hoping to use my experience to help people and make noticeable difference in our users day.</p>
+    </div>
+    <div className="teammate">
+        <Image src={artim_img} alt="Artim Trofimenko's headshot picture" width={100} />
+        <p>Hey! I'm Artim Trofimenko, I'm a senior at CSUN studying Computer Science. I want to solve problems and help improve people's lives by using the skills I've learned as a software engineer.</p>
+    </div>
+    <div className="teammate">
+        <Image src={felipe_img} alt="Felipe Soto's headshot picture" width={100} />
+        <p>Hi! I’m Felipe Soto, I’m a Senior at CSUN who transferred from Pierce College. I want transform visions into tangible realities and use my skills to help improve the digital landscape and elevate software solutions for users everywhere.</p>
+    </div>
+</div>

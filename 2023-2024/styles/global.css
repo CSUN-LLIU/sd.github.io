@@ -5,3 +5,16 @@
 .nextra-breadcrumb {
   display: none;
 }
+
+.group-2-teams {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.group-2-teams .teammate {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
