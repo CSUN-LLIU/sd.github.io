@@ -1,0 +1,9 @@
+{
+  "-- Group 1": {
+    "type": "separator",
+    "title": "Group 1"
+  },
+  "index": "Home",
+  "team": "Team",
+  "artifacts": "Artifacts"
+}
