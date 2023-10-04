@@ -15,7 +15,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: 2023-2024
+        working-directory: ./2023-2024
 
     strategy:
       matrix:
@@ -28,6 +28,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+      - run: npm ci
       - run: npm run build
       - run: npm run export
       - run: touch ./out/.nojekyll
