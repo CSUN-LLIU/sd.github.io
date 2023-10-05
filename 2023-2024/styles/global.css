@@ -18,3 +18,16 @@
   flex-direction: row;
   gap: 20px;
 }
+
+.group-1-teams {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.group-1-teams .teammate {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
