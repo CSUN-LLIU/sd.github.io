@@ -12,33 +12,86 @@ import UseCase_img from "/public/group-1/Artifacts/Group 1 Use Case Diagram.png"
 
 <div className="architecure">
   <Image src={Archtecture_img} alt="Archtectural DIagram" />
+  <p>
+  - The architectural framework used in the architecture of 
+  the AAC SARGIK application is the Model, View, and Controller 
+  design pattern. The Model is responsible for interacting with the 
+  Azure MySQL database through entity classes (mapping the structure 
+  of our entities) and LINQ statements for querying. The Controller component is
+   responsible for handling incoming requests, processing data from the Model, and determining 
+   the appropriate actions to take. The view is responsible for rendering the user interface and p
+   resenting data from the user as received from the model. The five major components of our application 
+   are the User Interface, the Angular View, the ASP.NET controller, the Model Component, and the data 
+   source consisting of the Azure MySQL Database and the Azure Blob Storage.
+
+   </p>
 </div>
 ##### Use Case Diagram
 <div className="use-case">
   <Image src={UseCase_img} alt="Use Case Diagram" />
+  <p>
+    - The use case Diagram showcases how the end user will interact with our
+    application, giving an abstract view of the main features that our
+    application will provide. As we can see from the Diagram the user will
+    authenticate when accessing our application, after which he will be able to
+    use our interactive keyboard to type words and be assisted by our AI word
+    prediction feature and AI image recommendation feature. The user will also
+    be able to interact with the visual scene display where he will be able to
+    upload photos and take photos using the device's camera after which he will
+    be able to draw hotspots (bounding boxes) around the objects in the image
+    and be assisted by our AI to predict words and text related to the selected
+    object which will be communicated through the device's speaker if the user
+    approves the word and text.
+  </p>
 </div>
 ##### Figure 3: Deployment Diagram
 <div className="deployment">
   <Image src={Deployment_img} alt="Deployment Diagram" />
+  <p>
+  - In the U.I. Design section, we present the prototype design of our main U.I. components. 
+  Our main focus is developing a clean and easy-to-use user interface. Our application will be
+   personalized for people with Dysarthria and Apraxia offering clear visuals, and minimal complexity 
+   taking into account the user's challenges in motor coordination and speech articulation. The user will 
+   first interact with our Azure Active Directory personalized page to log into the system. 
+   After which the interactive keyboard will be displayed and the user can start interacting
+   with our application. The user will also be able to access the Visual Scene Display from the 
+   middle button above the keyboard. When the button is pressed a modal box representing the visual 
+   scene display will be displayed with the option to capture a photo or upload a photo to the visual scene display where the 
+  user will be able to use the draw hotspot and text-prediction based on image functionality.
+  </p>
 </div>
 ##### Component Diagram
 <div className="component">
   <Image src={Component_img} alt="Component Diagram" />
+  <p>
+- The Component Diagram represents the collection of the major components such 
+as the Model, View, and Controller, and also the significant subcomponents that 
+represent the building blocks of the major components. The purpose of the component 
+diagram is to show the relationship between the components, how they communicate with each other, 
+and how they depend on each other. As we can see from the diagram subcomponents from both the view and 
+controller depend on the authentication and user sessions
+given by Azure Active Directory which is a cloud identity and access management.
+</p>
 </div>
 
 #### Final Presentation
 
+{" "}
+
 <a
   href="https://docs.google.com/presentation/d/1mvB-WdN0P6FskCcqvxRh-2-pyI8fXyLAKOPhId2NCpw/edit?usp=sharing"
   target="_blank"
-  rel="noopener noreferrer"
-  className="text-lg"
 >
-  Final Presentation Link
+  Link to Final Presentation
 </a>
 
 #### Final Project Report
 
-#### Posters
+{" "}
 
-#### Videos
+<a
+  href="https://docs.google.com/document/d/1tnO-cw5Xkq2Bvh_dAJPIp44pE8qy45hASf5ZmZE52Ic/edit?usp=sharing"
+  target="_blank"
+>
+  Link to Final Document
+</a>
