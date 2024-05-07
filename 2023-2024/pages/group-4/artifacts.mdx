@@ -1,5 +1,44 @@
 ## Artifacts
 
+### Full Demo
+
+https://drive.google.com/file/d/1budXiwrxchfHC_qLf8ElYnyzanqrEx6y/view?usp=sharing
+
+### SDPS Presentation
+![](/group-4/sdps-2024.jpg)
+
+### Arm Model & Rigging
+![](/group-4/artifacts/procedural-grab.png)
+![](/group-4/artifacts/finger-spline.png)
+
+The arm, which is the most crucial and critical part of this project, was designed and rigged in Blender. The arm was designed to be as realistic as possible, with the ability to move and interact with objects in the game. The arm was rigged with collision boxes, which would allow the arm to interact with objects in the game. The arm was also rigged with a finger spline, which would allow the fingers to move in a realistic manner — where objects within the finger spine paths will stop each indivudal finger in it's place, leading to a realistic grab.
+
+![](/group-4/artifacts/arm-collision-boxes.png)
+
+Collision boxes also was a major portion of making the arm realistic, as it provided structre to the arm, allowing objects to be grabbed in a realistic manor.
+
+### Environment & Level Design
+![](/group-4/artifacts/env1.png)
+![](/group-4/artifacts/env2.png)
+![](/group-4/artifacts/env3.png)
+![](/group-4/artifacts/table.png)
+
+Our environment and level design consisted of recreating a lab on campus where the user would be able to interact with the arm in a virtual environment. The user would be able to interact with the arm and see the very room they are sitting in inside the game. The levels are split into easy, medium and hard, with easy containing just dice, medium containing dice and objects, and hard containing just objects.
+
+![](/group-4/artifacts/bin.png)
+
+You can see above the bin design, which was a crucial part of the level design, as the user would have to pick up the objects and place them in the bin. The bin was designed to be a simple object that the user could interact with, and would be able to see the objects they placed in the bin while also keeping track of their score.
+
+### Progression & Sprints
+We utilized the SCRUM methodology with 2 week sprints, which meant we could iterate quickly and make changes as needed. This was particularly important for our group as we had to make major design changes mid-way through due to fundamental design changes to the actual prosthetic arm. Our team was able to adapt to these changes quickly without much downtime.
+
+### Foot Controller
+![](/group-4/artifacts/arm-diagram.png)
+![](/group-4/artifacts/foot-controller-original.png)
+![](/group-4/artifacts/prosthetic.png)
+
+The foot controller which was designed by the Dr. Bishay and the mechanical engineering department was a crucial component to making this simualtion feel as real as possible. The foot controller functions by having two presasble buttons, which you press with your toes, these button controll opening and closing of the arms with one press closing the arm a certain step amount, while holding it down will continuously close the arm. Replicating this in game was a challenge but we were able to implement this in a seamless manor. Within the game, the foot controller follows the digrams below, where input is first translated from a binary signal to a readable value in game, then is clamped such that a value is only read every 400ms, leading to smooth animations.
+
 ### Project Architecture
 
 #### Overall Project Design
